@@ -1,0 +1,49 @@
+
+.navbar {
+
+    background-color: transparent;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    height: 150px;
+    /* box-shadow: 0 0 25px 0 black;
+    border-bottom: solid 5px #00ffff */
+
+}
+
+.title {
+    font-family: 'Bai Jamjuree', sans-serif;
+    color:#160016;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    padding: 10px 40px 10px 10px;
+  }
+  
+.navlist {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0; 
+  }
+  
+.navlink {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 50px;
+    color:#160016;
+    padding: 20px;
+    margin-right: 50px;
+    transition: 0.5s;
+    width: 100%;
+  }
+
+.navlink:hover {
+    font-size: 50px;
+    color: #00ffff;
+    }
+  
