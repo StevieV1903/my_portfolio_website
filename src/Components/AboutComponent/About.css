@@ -1,33 +1,40 @@
-
+    
 .about-container {
-    margin-top: 120px;
-    display: flex;
-    flex: wrap;
-    justify-content: center;
+    margin: 150px 60px 50px 20px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-gap: 10px;
+    align-items: center;  
   }
-  
+
   .about-headshot {
+    display: flex;
     height: 250px;
-    border: 10px solid #5d001e;
+    border: 5px solid #5d001e;
     border-radius: 50%;
-    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
-    float: left;
-    margin: 90px 50px;
-    justify-content: center;
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.8);
+    justify-self: center;
     }
   
   .about-text {
-    display: inline;
-    padding: 80px 20px;
     text-align: justify;
     color: #5d001e;
-    justify-content: justify;
-    line-height: 1.35;
-    margin-right: 60px;
+    line-height: 1.3;
     font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    border: 1px solid #5d001e;
+    border-radius: 20px 50px;
+    
   }
   
   .about-text h1 {
+    margin: 0;
+    font-size: 40px;
     font-weight: bold;
+  }
+
+  .about-text p {
+    font-size: 20px;
   }
   

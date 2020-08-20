@@ -23,23 +23,27 @@ const NavBar = () => {
                 <li>
                     <Link to="/" className="navlink">
                     <FontAwesomeIcon icon={faHome} />
+                    <span>  home</span>
                     </Link>
                 </li>
 
                 <li>
                     <Link to="/About" className="navlink">
                     <FontAwesomeIcon icon={faUser} />
+                    <span>  about</span>
                     </Link> 
                 </li>
 
                 <li><Link to="/Projects" className="navlink">
                     <FontAwesomeIcon icon={faFolderOpen} />
+                    <span>  projects</span>
                     </Link>
                 </li>
 
                 <li>
                     <Link to="/Contact" className="navlink">
                     <FontAwesomeIcon icon={faEnvelope} />
+                    <span>  contact</span>
                     </Link>
                 </li>
 

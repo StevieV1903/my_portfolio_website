@@ -21,13 +21,13 @@ const About = () => {
                 Codeclan</a>.
                 </p>
                 <p>
-                I am a client centred Software Developer motivated to deliver software solutions that truly exceed customer expectations. With excellent communication skills I enjoy working collaboratively or equally well independently. 
+                I like to think of myself as a client centred developer motivated to deliver software solutions that truly exceed customer expectations. With excellent communication skills, I enjoy working collaboratively or equally well independently. 
                 </p>
                 <p> 
-                Seeking a role in the tech sector, I am enthusiastic, supportive, empathetic, loyal and driven to improve and I would love the opportunity to put this new technical skillset into practice within a dynamic company that encourages further learning and supported development.
+                Seeking a role in the tech sector, I am enthusiastic, supportive, empathetic, loyal and driven to improve myself and those around me. I would love the opportunity to put this new technical skillset into practice within a dynamic company that encourages further learning and supported development.
                 </p>
                 <p>
-                In my spare time, I love to play chess, cricket and table tennis. I also enjoy walking, cycling and cooking pizza, alfresco. 
+                In my spare time, I love to play chess, cricket and table tennis. I also enjoy walking, cycling, cooking pizza and ofcourse, practising my coding skills. 
                 </p>
 
             
