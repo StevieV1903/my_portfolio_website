@@ -1,3 +1,33 @@
-.about-title {
-    padding-top: 120px;
-}
+
+.about-container {
+    margin-top: 120px;
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+  }
+  
+  .about-headshot {
+    height: 250px;
+    border: 10px solid #5d001e;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    float: left;
+    margin: 90px 50px;
+    justify-content: center;
+    }
+  
+  .about-text {
+    display: inline;
+    padding: 80px 20px;
+    text-align: justify;
+    color: #5d001e;
+    justify-content: justify;
+    line-height: 1.35;
+    margin-right: 60px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .about-text h1 {
+    font-weight: bold;
+  }
+  

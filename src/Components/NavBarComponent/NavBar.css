@@ -1,7 +1,5 @@
 
 .navbar {
-
-    background-color: transparent;
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 20% 80%;
@@ -18,7 +16,7 @@
 
 .title {
     font-family: 'Bai Jamjuree', sans-serif;
-    color:#160016;
+    color:#5d001e;
     justify-content: center;
     align-items: center;
     margin-left: 30px;
@@ -34,8 +32,8 @@
   
 .navlink {
     font-family: 'Bai Jamjuree', sans-serif;
-    font-size: 50px;
-    color:#160016;
+    font-size: 40px;
+    color:#5D001e;
     padding: 20px;
     margin-right: 50px;
     transition: 0.5s;
@@ -44,6 +42,6 @@
 
 .navlink:hover {
     font-size: 50px;
-    color: #00ffff;
+    color: #ee4c7c;
     }
   
