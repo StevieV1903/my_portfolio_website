@@ -6,6 +6,7 @@ import HomePage from "./Components/HomePageComponent/HomePage.js"
 import About from "./Components/AboutComponent/About.js"
 import Projects from "./Components/ProjectsComponent/Projects.js"
 import Contact from "./Components/ContactComponent/Contact.js"
+import Footer from "./Components/FooterComponent/Footer.js"
 
 
 const App = () => {
@@ -22,6 +23,8 @@ const App = () => {
       <Route path="/Projects" component={ Projects }/>
       <Route path="/Contact" component={ Contact }/>
     </Switch>
+
+    <Footer />
 
     </BrowserRouter>
     

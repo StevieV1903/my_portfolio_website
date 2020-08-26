@@ -18,14 +18,13 @@ const HomePage = () => {
                 </div>
             </header>
 
-            <div>
+            {/* <div>
             <Link to="/Projects">
             <div className="hompage-body-link">
-            {/* <img src={foodndrink} alt="food and drink" /> */}
             <h1 className="homepage-body-title"> Projects</h1>
             </div>
             </Link>
-          </div>
+          </div> */}
         </>
     )
 }

@@ -2,15 +2,14 @@
 .navbar {
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 25% 75%;
     align-items: center;
     position: fixed;
     z-index: 1;
     top: 0;
     width: 100%;
-    height: 150px;
-    /* box-shadow: 0 0 25px 0 black;
-    border-bottom: solid 5px #00ffff */
+    height: 100px;
+    background-color: whitesmoke;
 
 }
 
@@ -19,8 +18,9 @@
     color:#5d001e;
     justify-content: center;
     align-items: center;
-    margin-left: 30px;
-    padding: 10px 40px 10px 10px;
+    margin-left: 16px;
+    padding: 5px 30px 5px 5px;
+    font-size: 20px;
   }
   
 .navlist {
@@ -32,7 +32,7 @@
   
 .navlink {
     font-family: 'Bai Jamjuree', sans-serif;
-    font-size: 26px;
+    font-size: 20px;
     color:#5D001e;
     padding: 14px;
     margin-right: 50px;
@@ -42,8 +42,8 @@
   }
 
 .navlink:hover {
-    font-size: 30px;
-    color: #ee4c7c;
+    font-size: 24px;
+    color: #fa00d9;
   }
 
   .navlink::after {
@@ -53,7 +53,7 @@
     left: 0;
     width: 100%;
     height: 2px;
-    background: #ee4c7c;
+    background: #750066;
     transform: scaleX(0);
     transform-origin: right;
     transition: transform 0.5s;

@@ -1,8 +1,12 @@
-import React from "react";
-import './About.css'
-import headshot from "../../Images/headshot_BW.jpg"
+import React, { useEffect } from "react";
+import './About.css';
+import headshot from "../../Images/headshot_BW.jpg";
 
 const About = () => {
+
+  useEffect(()=> {
+    window.scrollTo( 0, 0 )
+});
 
     return (
         <>
@@ -14,11 +18,11 @@ const About = () => {
           />
             <div className="about-text">
                 <h1>
-                Hi, I'm Steve Vance
+                Hi, I'm Steve
                 </h1>
                 <p>
                 I'm a Software Developer currently living in Dunbar, East Lothian and I have recently graduated from <a href="https://codeclan.com/">
-                Codeclan</a>.
+                Codeclan</a>. Codeclan is a sixteen-week intensive Professional Software Development course involving 800+ hours of coding. Whilst on the course I also attained an SCQF Level 8 PDA in Professional Software Development.
                 </p>
                 <p>
                 I like to think of myself as a client centred developer motivated to deliver software solutions that truly exceed customer expectations. With excellent communication skills, I enjoy working collaboratively or equally well independently. 

@@ -1,6 +1,8 @@
+.header {
+    height: vh;
+}
 
-
-.homepage-title {
+/* .homepage-title {
     font-family: 'Raleway', sans-serif;
     position: absolute;
     top: 50%;
@@ -9,4 +11,4 @@
     color: white;
     text-align: center;  
       
-}
+} */

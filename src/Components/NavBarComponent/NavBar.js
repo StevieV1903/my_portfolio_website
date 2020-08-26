@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import './NavBar.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome } from '@fortawesome/free-solid-svg-icons'
-import { faUser } from '@fortawesome/free-solid-svg-icons'
-import { faFolderOpen } from '@fortawesome/free-solid-svg-icons'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHome } from '@fortawesome/free-solid-svg-icons';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
+import { faFolderOpen } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const NavBar = () => {
     
@@ -15,7 +15,7 @@ const NavBar = () => {
         <nav className="navbar">
             
             <div className="title">
-                <h2>StevieV1903</h2>
+                StevieV1903 | Software Developer
             </div>
 
             <ul className="navlist"> 

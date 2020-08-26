@@ -1,0 +1,40 @@
+h1{
+    color: #5d001e;
+    font-size: 26px;
+}
+
+label {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+    color: #5d001e;
+    font-weight: bold;
+
+
+}
+
+input[type=text], textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e3afbc;
+    background-color: #fff5f7;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px; 
+    resize: vertical;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+  }
+
+input[type=submit] {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #5d001e;
+    font-size: 16px;
+    width: auto;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: bold;
+  }

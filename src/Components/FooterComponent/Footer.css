@@ -1,0 +1,38 @@
+.footer {
+    background-color: transparent;
+    /* background-color: #bebebe; */
+    display: grid;
+    grid-template-columns: 1fr ;
+    align-items: center;
+    /* position: fixed;
+    bottom: 0; */
+    width: 100%;
+    height: auto;      
+  }
+
+  .footer-title {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-align: center;
+    color: #5d001e;
+    
+  }
+
+  .footer-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; 
+    padding-bottom: 20px;
+  }
+
+  .footer-item {
+      padding: 0 10px;
+  }
+
+  .footer-list li img{
+      height: 50px;
+      width: 50px
+
+  }
