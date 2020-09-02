@@ -1,13 +1,9 @@
 .footer {
     background-color: transparent;
-    /* background-color: #bebebe; */
     display: grid;
     grid-template-columns: 1fr ;
     align-items: center;
-    /* position: fixed;
-    bottom: 0; */
     width: 100%;
-    height: auto;      
   }
 
   .footer-title {
@@ -15,24 +11,49 @@
     font-weight: bold;
     font-family: 'Bai Jamjuree', sans-serif;
     text-align: center;
-    color: #5d001e;
-    
+    color: #5d001e; 
   }
 
   .footer-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 0; 
     padding-bottom: 20px;
+    text-align: center;
   }
 
   .footer-item {
       padding: 0 10px;
+      display: inline-flex;
+      flex: wrap;
+      justify-content: center;
   }
 
   .footer-list li img{
       height: 50px;
-      width: 50px
-
+      width: 50px;
   }
+
+  /* RESPONSIVE RULES; */
+
+  @media screen and (max-width: 1124px) {
+    
+    .footer-list {
+     max-width: 600px;
+     margin: auto auto;
+    }
+    .footer-item {
+      padding: 10px 10px;
+      display: inline-flex;
+      flex: wrap;
+      justify-content: center;
+  }
+  }
+
+  @media screen and (max-width: 600px) {
+    
+    .footer-list {
+     max-width: 300px;
+     margin: auto auto;
+    }
+  }
+
+  

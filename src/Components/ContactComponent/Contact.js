@@ -1,6 +1,9 @@
 import React, { useEffect } from "react";
-import './Contact.css';
-import ContactForm from './ContactForm.js'
+import "./Contact.css";
+import ContactForm from "./ContactForm.js";
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 import twitter from "../../Images/twitter.png";
 import instagram from "../../Images/instagram.png";
@@ -21,12 +24,16 @@ const Contact = () => {
 
             <header>
                 <div className="contact-description-container">
-                <h1 className="contact-title">Get in Touch</h1>
+                <h1 className="contact-title">
+                <FontAwesomeIcon icon={faEnvelope} />
+                    <span>  Contact_Details</span></h1>
+                <hr></hr>
                 <p className="contact-description-text">
                 I would love to hear from you!! so please do get in touch as I value all feedback!! You can contact me by using the form on this page, give me a call on the mobile below or connect across a variety of social media platforms!!
                 </p>
                 </div>
             </header>
+            
                 
             <div className="contact-body">
                 <div className="contact">
@@ -92,7 +99,7 @@ const Contact = () => {
                 <ContactForm />
             </div>
     </div>
-    // </div>   
+     </div>   
 
 
         

@@ -1,6 +1,11 @@
 import React, { useEffect } from "react";
-import './About.css';
+import "./About.css";
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
 import headshot from "../../Images/headshot_BW.jpg";
+
+
 
 const About = () => {
 
@@ -10,6 +15,14 @@ const About = () => {
 
     return (
         <>
+        <header>
+        <div className="about-description-container">
+        <h1 className="about-title">
+        <FontAwesomeIcon icon={faUser} />
+                    <span> About_Me</span></h1>
+        <hr></hr>
+        </div>
+      </header>
         <div className="about-container">
           <img
             className="about-headshot"
@@ -18,7 +31,7 @@ const About = () => {
           />
             <div className="about-text">
                 <h1>
-                Hi, I'm Steve
+                Welcome to my portfolio site.
                 </h1>
                 <p>
                 I'm a Software Developer currently living in Dunbar, East Lothian and I have recently graduated from <a href="https://codeclan.com/">

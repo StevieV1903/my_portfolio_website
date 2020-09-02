@@ -28,6 +28,12 @@ const ContactForm = () => {
       document.getElementById("myText").value=""
   }  
 
+  // const clearForm = () => {
+  //     document.getElementById("user_name").value=""
+  //     document.getElementById("user_email").value=""
+  //     document.getElementById("myText").value=""
+  // }
+
 
   return (
     
@@ -54,6 +60,9 @@ const ContactForm = () => {
 
       <input type="submit" value="Send" />
       <br></br>
+
+      {/* <button className="clear-button" onclick={clearForm}>Clear input fields</button> */}
+
       </form>
 
     </>

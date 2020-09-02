@@ -2,6 +2,9 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Projects.css";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFolderOpen } from '@fortawesome/free-solid-svg-icons';
+
 import gym from "../../Images/ruby-gym.png";
 import worldquiz from "../../Images/worldquiz.png";
 import jobswipe from "../../Images/jobswipe.png";
@@ -43,7 +46,10 @@ const Projects = () => {
 
       <header>
         <div className="projects-description-container">
-        <h1 className="projects-title">My Projects</h1>
+        <h1 className="projects-title">
+        <FontAwesomeIcon icon={faFolderOpen} />
+                    <span> my_Projects</span></h1>
+        <hr></hr>
           <p className="projects-description-text">
           I have worked on a number of projects over the last wee while including those completed as part of my Codeclan adventure, as well as projects that I have taken on as part of my own personal development. If you would like any further information about the projects below, please do <Link to="/Contact"> get in touch</Link>!!
           </p>

@@ -15,7 +15,7 @@ const NavBar = () => {
         <nav className="navbar">
             
             <div className="title">
-                StevieV1903 | Software Developer
+                <span> StevieV1903 </span>
             </div>
 
             <ul className="navlist"> 

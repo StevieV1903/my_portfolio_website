@@ -8,6 +8,8 @@
     justify-self: start;
     margin-top: 120px;
     font-size: 26px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-transform: uppercase;
   }
 
   .contact-description-text {
@@ -95,7 +97,7 @@
     color: #5d001e;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 18px;
     
 }
 
