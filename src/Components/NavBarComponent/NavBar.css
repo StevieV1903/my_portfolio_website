@@ -16,7 +16,7 @@
 
 .title {
     font-family: 'Bai Jamjuree', sans-serif;
-    color:#5d001e;
+    color:#5D001e;
     align-items: center;
     margin-left: 16px;
     padding: 5px 30px 5px 5px;
@@ -73,7 +73,7 @@
     top: 120%;
     left: 0;
     width: 65%;
-    height: 5px;
+    height: 3px;
     background: #750066;
     transform: scaleX(0);
     transform-origin: right;

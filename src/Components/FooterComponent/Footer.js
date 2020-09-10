@@ -24,7 +24,7 @@ const Footer = () => {
         <div className="footer">
             
             <div className="footer-title">
-                <p>My Techstack</p>
+                <p>[ my_Techstack ]</p>
             </div>
             
 

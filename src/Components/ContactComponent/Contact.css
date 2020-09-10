@@ -4,13 +4,17 @@
     font-family: 'Roboto', sans-serif;
   }
 
-.contact-title {
-    justify-self: start;
-    margin-top: 120px;
-    font-size: 26px;
-    font-family: 'Bai Jamjuree', sans-serif;
-    text-transform: uppercase;
+  .contact-description-container hr {
+    border-top: 1px solid #9a1750; 
   }
+  
+  .contact-title {
+        justify-self: start;
+        margin-top: 120px;
+        font-size: 26px;
+        font-family: 'Bai Jamjuree', sans-serif;
+        text-transform: uppercase;
+    }
 
   .contact-description-text {
     line-height: 1.35;
@@ -18,102 +22,41 @@
     text-align: justify; 
   }
 
-
-
-
-
-
-
-
-
-
-.contact-details {
-    margin: 60px 60px 30px 60px;
-    color: #5d001e;
-    font-family: 'Roboto', sans-serif;
-}
-
-.contact-text {
-    color: #5d001e;
-    font-family: 'Roboto', sans-serif;
-}
-
-.contact-title {
-    justify-self: start;
-    margin-top: 120px;
-    font-size: 26px;
-}
-
-.contact-intro {
-    line-height: 1.35;
-    font-size: 18px;
-    text-align: justify; 
-}
-
-.contact-body {
+  .contact-body {
     display: grid;
-    grid-template-columns: 1fr 3fr;
-    padding: 10px 30px 20px 50px;
-    justify-content: center;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    justify-items: center;
 }
 
-.contact-icons img {
-    width: 60px;
-    padding: 5px;
-}
-
-.contact {
-    display: grid;
-    max-width: 300px;
-    grid-template-columns: auto auto;
-    align-items: center;
-    justify-content: center;
-    border: solid 1px black;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 5px 15px 0px #000000cc;
-    background-color: white;
-
-}
-
-.contact-list {
-    align-items: center;
-}
-
-.contact-list-info {
-    padding: 20px 5px 20px 5px;
-}
-
-.contact-list-info-links {
-    align-items: center;
-    padding: 0;
-    
-}
-
-.contact-list-info-links li {
-    align-items: center;
-    padding: 28px 0;
-    text-decoration: none;
-    color: #5d001e;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    
-}
-
-.contact-list-info-links li a {
-    text-decoration: none;
-    color: #5d001e;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-}
-
-.contact-form-container {
+  .contact-form-container {
     border: solid 1px black;
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 5px 15px 0px #000000cc;
     background-color: white;
-    margin: 0 25px;
+    margin: 0 10px 10px 10px;
     font-family: 'Bai Jamjuree', sans-serif;
+    min-width: 1000px;
+}
+
+
+/* RESPONSIVE RULES  */
+
+@media screen and (max-width: 1205px) {
+    .contact-description-container {
+      margin: 60px 30px 20px 30px;
+    }  
+    .contact-form-container {
+        padding: 20px;
+        min-width: 800px;
+    }
+  }
+
+  @media screen and (max-width: 870px) {
+    .contact-form-container {
+        padding: 20px;
+        min-width: 0;
+    }
+  
 }

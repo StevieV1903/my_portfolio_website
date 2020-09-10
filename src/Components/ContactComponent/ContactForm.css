@@ -1,6 +1,22 @@
-h1{
+.contact-header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.contact-header-title {
     color: #5d001e;
     font-size: 26px;
+}
+
+.contact-header-icons {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-items: center;
+  align-items: center;
+}
+
+.contact-header-icons img {
+  width: 55px;
 }
 
 label {
@@ -34,5 +50,46 @@ input {
     font-size: 16px;
     width: auto;
     font-family: 'Bai Jamjuree', sans-serif;
-    font-weight: bold;
   }
+
+  input[type=submit] {
+    padding: 10px 20px;
+    border: 1px solid white ;
+    background-color: #5d001e;
+    border-radius: 5px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    min-width: 150px;
+  }
+
+  /* RESPONSIVE RULES  */
+
+@media screen and (max-width: 870px) {
+  .contact-header-icons img {
+    margin-left: 20px;
+    width: 50px;
+  } 
+}
+
+@media screen and (max-width: 600px) {
+  .contact-header-icons img {
+    margin-left: 10px;
+    width: 40px;
+  }
+  .contact-header-title {
+    font-size: 22px;
+} 
+}
+
+@media screen and (max-width: 460px) {
+  .contact-header-icons img {
+    margin-left: 5px;
+    width: 30px;
+  } 
+  .contact-header-title {
+    font-size: 20px;
+}
+}
+
+  

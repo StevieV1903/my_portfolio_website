@@ -1,7 +1,10 @@
 .about-description-container {
   margin: 60px 60px 30px 60px;
-  color: #5d001e;
   font-family: 'Roboto', sans-serif;
+}
+.about-description-container hr {
+  border-top: 1px solid #9a1750;
+  
 }
 
 .about-title {
@@ -10,6 +13,7 @@
   font-size: 26px;
   font-family: 'Bai Jamjuree', sans-serif;
   text-transform: uppercase;
+  color: #5d001e;
 }
 
 
@@ -45,6 +49,7 @@
     box-shadow: 0 5px 15px 0px #000000cc;
     height: 325px;
     overflow: auto; 
+    margin-right: 40px;
   }
   
   .about-text h1 {
@@ -71,6 +76,9 @@
     .about-headshot {
       height: 300px;
       }
+    .about-text {
+      margin-right: 0;
+    }
     
   }
 

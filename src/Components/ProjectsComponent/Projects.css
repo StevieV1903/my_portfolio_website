@@ -3,6 +3,10 @@
     color: #5d001e;
     font-family: 'Roboto', sans-serif;
   }
+  .projects-description-container hr {
+    border-top: 1px solid #9a1750;
+    
+  }
 
 .projects-title {
     justify-self: start;
@@ -131,30 +135,6 @@
       padding: 0 10px;
     }
   }
-
-  /* @media screen and (max-width: 415px) {
-
-    .lister-main-header {
-      margin-top: 150px;
-      font-size: 30px;
-      margin-left: 0.5em; 
-    }
-    .lister-body-container {
-      margin: 1em;
-    }
-  
-    .lister-body-text {
-      font-size: 18px;
-    }
-  } */
-
-  /* @media screen and (max-width: 360px) {
-
-    .lister-main-header {
-      font-size: 24px;
-      margin-left: 0.5em; 
-    }
-  } */
 
  
 
