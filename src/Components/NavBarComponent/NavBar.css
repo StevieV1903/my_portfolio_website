@@ -8,15 +8,15 @@
     z-index: 1;
     top: 0;
     width: 100%;
-    height: 100px;
+    height: 120px;
     background-color: whitesmoke;
+    
 
 }
 
 .title {
     font-family: 'Bai Jamjuree', sans-serif;
     color:#5d001e;
-    justify-content: center;
     align-items: center;
     margin-left: 16px;
     padding: 5px 30px 5px 5px;
@@ -25,44 +25,134 @@
   }
   
 .navlist {
-    display: flex;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    align-items: center;
+    max-width: 100%;
+    justify-self: end;
+    margin-right: 30px;
+    
+    /* display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin: 0; 
+    margin: 0;  */
   }
   
-.navlink {
+.navlink-icon {
     font-family: 'Bai Jamjuree', sans-serif;
-    font-size: 21px;
+    font-size: 26px;
     color:#5D001e;
-    padding: 10px;
-    margin-right: 25px;
+    padding-right: 5px;
+    padding-left: 20px;
+    /* margin-right: 25px; */
+    transition: 0.5s;
+    /* width: 100%;
+    position: relative; */
+  }
+
+  .navlink-text {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 26px;
+    color:#5D001e;
+    padding-right: 40px;
+    /* margin-right: 25px; */
     transition: 0.5s;
     width: 100%;
     position: relative;
   }
 
-.navlink:hover {
-    font-size: 24px;
+/* .navlink-text:hover {
+    font-size: 26px;
     color: #5D001e;
-  }
+  } */
 
-  .navlink::after {
+  .navlink-text::after {
     position: absolute;
     content: "";
-    top: 80%;
+    top: 120%;
     left: 0;
-    width: 100%;
-    height: 2px;
+    width: 65%;
+    height: 5px;
     background: #750066;
     transform: scaleX(0);
     transform-origin: right;
     transition: transform 0.5s;
   }
 
-  .navlink:hover::after {
+  .navlink-text:hover::after {
     transform: scaleX(1);
     transform-origin: left;
   }
+
+  /* RESPONSIVE RULES; */
+
+  @media screen and (max-width: 1000px) {
+
+    .navlink-icon {
+      font-size: 22px;
+      padding-right: 5px;
+    }
+  
+    .navlink-text {
+      font-size: 22px;
+      padding-right: 20px;
+    }
+    .navlink-text::after {
+      display: none;
+    }
+  
+    .navlink-text:hover::after {
+      display: none;
+    }
+    
+    
+  }
+
+  @media screen and (max-width: 750px) {
+
+    .navlink-icon {
+      font-size: 30px;
+      padding: 20px;
+    }
+  
+    .navlink-text {
+      display: none;
+    }
+    .navlist {
+      margin-right: 25px;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+
+    .navlink-icon {
+      font-size: 24px;
+      padding: 14px;
+    }
+    .navlist {
+      margin-right: 20px;
+    }
+    .title {
+      margin-left: 10px;
+      padding: 5px 10px 5px 0px;
+      font-size: 18px;
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+
+    .navlink-icon {
+      font-size: 22px;
+    }
+    .navlist {
+      margin-right: 10px;
+    }
+    .title {
+      margin-left: 10px;
+      font-size: 16px;
+    }
+  }
+
 
   

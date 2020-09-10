@@ -37,7 +37,7 @@
   .project-item {
     box-shadow: 0 5px 15px 0px #000000cc;
     max-width: 350px;
-    height: auto;
+    min-height: 560px;
     text-align: center;
     background-color: #ebdcdf;  
     border: 1px solid black;
@@ -109,25 +109,30 @@
 
   /* RESPONSIVE RULES */
 
-  /* @media screen and (max-width: 768px) {
-    
-    .lister-item {
-      max-width: 320px;             
-      padding: 0.5em;
-      margin: 0.5em;
+  @media screen and (max-width: 1205px) {
+    .projects-description-container {
+      margin: 60px 30px 20px 30px;
     }
-
-    .lister-title {
-      font-size: 17px;
-      padding-top: 1em;
+    .project-item {
+      max-width: 310px;
+      min-height: 630px;
+      padding: 10px;
+      margin: 5px;
     }
-
-    .lister-detail {              
-      font-size: 17px;
+    .project-item img {
+      width: 280px;
+      height: 200px;
+      margin-top: 10px;
+      padding: 0;
+    }
+    .project-icon img {
+      width: 40px;
+      height: 40px;
+      padding: 0 10px;
     }
   }
 
-  @media screen and (max-width: 415px) {
+  /* @media screen and (max-width: 415px) {
 
     .lister-main-header {
       margin-top: 150px;
@@ -141,9 +146,9 @@
     .lister-body-text {
       font-size: 18px;
     }
-  }
+  } */
 
-  @media screen and (max-width: 360px) {
+  /* @media screen and (max-width: 360px) {
 
     .lister-main-header {
       font-size: 24px;

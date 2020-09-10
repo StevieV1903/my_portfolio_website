@@ -11,6 +11,7 @@ import jobswipe from "../../Images/jobswipe.png";
 import sspca from "../../Images/sspca.png";
 import covid19 from "../../Images/covid19.png";
 import discoveringdunbar from "../../Images/discoveringdunbar.png";
+import snookerscorer from "../../Images/snookerscorer.png";
 
 import ruby from "../../Images/ruby.png";
 import sinatra from "../../Images/sinatra.png";
@@ -87,10 +88,11 @@ const Projects = () => {
         <img src={ javascript } alt="javascript logo" />
         <img src={ vue } alt="vue logo" />
         <img src={ mongodb } alt="mongodb logo" />
+        <img src={ heroku } alt="heroku logo" />
         </div>
         <br />
 
-    <button><a href="https://rubygymnasium.herokuapp.com/" target="_blank"> view deployed site </a></button>
+    <button><a href="https://sv-world-quiz.herokuapp.com/" target="_blank"> view deployed site </a></button>
     <button><a href="https://github.com/StevieV1903/world_quiz_group_project" target="_blank"> view source code </a></button>
         </div>
 
@@ -108,8 +110,8 @@ const Projects = () => {
         </div>
         <br />
 
-    <button><a href="https://rubygymnasium.herokuapp.com/" target="_blank"> view deployed site </a></button>
-    <button><a href="https://github.com/StevieV1903/the_ruby_gymnasium" target="_blank"> view source code </a></button>
+    {/* <button><a href="https://rubygymnasium.herokuapp.com/" target="_blank"> view deployed site </a></button>
+    <button><a href="https://github.com/StevieV1903/the_ruby_gymnasium" target="_blank"> view source code </a></button> */}
         </div>
 
         <div className="project-item">
@@ -126,7 +128,7 @@ const Projects = () => {
         <br />
 
     {/* <button><a href="https://rubygymnasium.herokuapp.com/" target="_blank"> view deployed site </a></button> */}
-    <button><a href="https://github.com/StevieV1903/the_ruby_gymnasium" target="_blank"> view source code </a></button>
+    <button><a href="https://github.com/StevieV1903/cx_sspca_animal_info" target="_blank"> view source code </a></button>
         </div>
 
         <div className="project-item">
@@ -160,6 +162,23 @@ const Projects = () => {
 
     <button><a href="https://steviev1903.github.io/react-dunbar-pages/" target="_blank"> view deployed site </a></button>
     <button><a href="https://github.com/StevieV1903/react-dunbar-pages" target="_blank"> view source code </a></button>
+        </div>
+
+        <div className="project-item">
+          <img src={ snookerscorer } alt="snooker scorer screenshot" />
+          <h1 className="project-title">Snooker Scorer</h1>
+          <p className="project-detail">
+          This was a group project (x3) post Codeclan. It was built using Javascript and React. The aim of the app is to keep score during a snooker match, either watching or playing with a friend. It includes a set-up page that stores players names and lets you pick who is to break first.
+        </p>
+        <div className="project-icon">
+        <img src={ react } alt="react logo" />
+        <img src={ javascript } alt="javascript logo" />
+        {/* <img src={ githubpages } alt="git hub pages logo" /> */}
+        </div>
+        <br />
+
+    {/* <button><a href="https://steviev1903.github.io/react-dunbar-pages/" target="_blank"> view deployed site </a></button> */}
+    <button><a href="https://github.com/StevieV1903/snooker_scorer_cjs" target="_blank"> view source code </a></button>
         </div>
         
         

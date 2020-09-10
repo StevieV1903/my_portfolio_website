@@ -27,7 +27,7 @@
     height: 250px;
     border: 5px solid #5d001e;
     border-style: ridge;
-    border-radius: 50%;
+    border-radius: 20%;
     box-shadow: 0 5px 15px 0px #000000cc;
     justify-self: center;
     }
@@ -37,16 +37,14 @@
     color: #5d001e;
     line-height: 1.5;
     font-family: 'Roboto', sans-serif;
+    font-size: 24px;
     padding: 20px 40px;
     border: 1px solid #5d001e;
     border-radius: 20px;
     background-color: white;
     box-shadow: 0 5px 15px 0px #000000cc;
     height: 325px;
-    overflow: auto;
-  
-    
-    
+    overflow: auto; 
   }
   
   .about-text h1 {
@@ -58,4 +56,48 @@
   .about-text p {
     font-size: 18px;
   }
+
+  /* RESPONSIVE RULES */
+
+  @media screen and (max-width: 1024px) {
+    .about-container {
+      margin: 20px 40px;
+      box-sizing: border-box;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: none;
+      align-items: center;  
+    }
+    .about-headshot {
+      height: 300px;
+      }
+    
+  }
+
+  @media screen and (max-width: 670px) {
+    .about-text {
+      padding: 20px 30px;
+      height: 500px;
+    }
+    .about-container {
+      margin: 10px 10px;
+    }
+    
+  }
+
+  @media screen and (max-width: 550px) {
+    .about-text h1 {
+      font-size: 26px;
+      text-align: left;
+    }
+    .about-text {
+      text-align: center;
+      font-size: 20px;
+    }
+    
+  }
+
+  
+
+
   

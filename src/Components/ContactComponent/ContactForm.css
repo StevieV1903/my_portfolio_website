@@ -26,13 +26,11 @@ input[type=text], textarea {
     font-size: 16px;
   }
 
-input[type=submit] {
+input {
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
-    background-color: #5d001e;
     font-size: 16px;
     width: auto;
     font-family: 'Bai Jamjuree', sans-serif;

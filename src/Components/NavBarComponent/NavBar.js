@@ -21,31 +21,81 @@ const NavBar = () => {
             <ul className="navlist"> 
 
                 <li>
+                    <Link to="/" className="navlink-icon">
+                    <FontAwesomeIcon icon={faHome} />
+                    </Link>
+                </li>
+
+                <li>
+                    <Link to="/" className="navlink-text">
+                    <span>home</span>
+                    </Link>
+                </li>
+
+                <li>
+                    <Link to="/About" className="navlink-icon">
+                    <FontAwesomeIcon icon={faUser} />
+                    </Link>
+                </li>
+
+                <li>
+                    <Link to="/About" className="navlink-text">
+                    <span>about</span>
+                    </Link>
+                </li>
+
+                <li>
+                    <Link to="/Projects" className="navlink-icon">
+                    <FontAwesomeIcon icon={faFolderOpen} />
+                    </Link>
+                </li>
+
+                <li>
+                    <Link to="/Projects" className="navlink-text">
+                    <span>projects</span>
+                    </Link>
+                </li>
+
+                <li>
+                    <Link to="/Contact" className="navlink-icon">
+                    <FontAwesomeIcon icon={faEnvelope} />
+                    </Link>
+                </li>
+
+                <li>
+                    <Link to="/Contact" className="navlink-text">
+                    <span>contact</span>
+                    </Link>
+                </li>
+
+                
+
+                {/* <li>
                     <Link to="/" className="navlink">
                     <FontAwesomeIcon icon={faHome} />
                     <span>  home</span>
                     </Link>
-                </li>
+                </li> */}
 
-                <li>
+                {/* <li>
                     <Link to="/About" className="navlink">
                     <FontAwesomeIcon icon={faUser} />
                     <span>  about</span>
                     </Link> 
-                </li>
+                </li> */}
 
-                <li><Link to="/Projects" className="navlink">
+                {/* <li><Link to="/Projects" className="navlink">
                     <FontAwesomeIcon icon={faFolderOpen} />
                     <span>  projects</span>
                     </Link>
-                </li>
+                </li> */}
 
-                <li>
+                {/* <li>
                     <Link to="/Contact" className="navlink">
                     <FontAwesomeIcon icon={faEnvelope} />
                     <span>  contact</span>
                     </Link>
-                </li>
+                </li> */}
 
             </ul>
 
