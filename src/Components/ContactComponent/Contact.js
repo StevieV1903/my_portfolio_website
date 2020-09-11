@@ -23,7 +23,7 @@ const Contact = () => {
                     <span>  Contact_Details</span></h1>
                 <hr></hr>
                 <p className="contact-description-text">
-                I would love to hear from you!! so please do get in touch as I value all feedback!! You can contact me by using the form on this page, give me a call on the mobile below or connect across a variety of social media platforms!!
+                I would love to hear from you!! so please do get in touch as I value all feedback!! You can contact me by using the form on this page or connect across a variety of social media platforms!!
                 </p>
                 </div>
             </header>
