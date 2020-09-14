@@ -20,10 +20,10 @@ const Contact = () => {
                 <div className="contact-description-container">
                 <h1 className="contact-title">
                 <FontAwesomeIcon icon={faEnvelope} />
-                    <span>  Contact_Details</span></h1>
+                    <span>  Contact_Me</span></h1>
                 <hr></hr>
                 <p className="contact-description-text">
-                I would love to hear from you!! so please do get in touch as I value all feedback!! You can contact me by using the form on this page or connect across a variety of social media platforms!!
+                I would love to hear from you, so please do get in touch as I value all feedback!! Even more so, if you are looking to hire!! You can contact me by using the form on this page or connect with me across a variety of social media platforms!! I look forward to hearing from you!!
                 </p>
                 </div>
             </header>

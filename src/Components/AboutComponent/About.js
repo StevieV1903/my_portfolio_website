@@ -38,7 +38,7 @@ const About = () => {
                 Codeclan</a>. Codeclan is a sixteen-week intensive Professional Software Development course involving 800+ hours of coding. Whilst on the course I also attained an SCQF Level 8 PDA in Professional Software Development.
                 </p>
                 <p>
-                I like to think of myself as a client centred developer motivated to deliver software solutions that truly exceed customer expectations. With excellent communication skills, I enjoy working collaboratively or equally well independently. 
+                I like to think of myself as a client-centred developer motivated to deliver software solutions that truly exceed customer expectations. With excellent communication skills, I enjoy working collaboratively or equally well independently. 
                 </p>
                 <p> 
                 Seeking a role in the tech sector, I am enthusiastic, supportive, empathetic, loyal and driven to improve myself and those around me. I would love the opportunity to put this new technical skillset into practice within a dynamic company that encourages further learning and supported development.

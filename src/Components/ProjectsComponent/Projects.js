@@ -177,7 +177,7 @@ const Projects = () => {
         </div>
         <br />
 
-    {/* <button><a href="https://steviev1903.github.io/react-dunbar-pages/" target="_blank"> view deployed site </a></button> */}
+    <button><a href="https://snooker-scorer-app.netlify.app" target="_blank"> view deployed site </a></button>
     <button><a href="https://github.com/StevieV1903/snooker_scorer_cjs" target="_blank"> view source code </a></button>
         </div>
         
