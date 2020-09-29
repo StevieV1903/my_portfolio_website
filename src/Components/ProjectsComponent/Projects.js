@@ -12,6 +12,7 @@ import sspca from "../../Images/sspca.png";
 import covid19 from "../../Images/covid19.png";
 import discoveringdunbar from "../../Images/discoveringdunbar.png";
 import snookerscorer from "../../Images/snookerscorer.png";
+import wastenotwantnot from "../../Images/wastenot.png";
 
 import ruby from "../../Images/ruby.png";
 import sinatra from "../../Images/sinatra.png";
@@ -29,6 +30,7 @@ import java from "../../Images/java.png";
 import reactnative from "../../Images/reactnative.png";
 import firebase from "../../Images/firebase.png";
 import githubpages from "../../Images/githubpages.png";
+import netlify from "../../Images/netlify.png";
 
 
 
@@ -173,12 +175,29 @@ const Projects = () => {
         <div className="project-icon">
         <img src={ react } alt="react logo" />
         <img src={ javascript } alt="javascript logo" />
-        {/* <img src={ githubpages } alt="git hub pages logo" /> */}
+        <img src={ netlify } alt="netlify logo" />
         </div>
         <br />
 
     <button><a href="https://snooker-scorer-app.netlify.app" target="_blank"> view deployed site </a></button>
     <button><a href="https://github.com/StevieV1903/snooker_scorer_cjs" target="_blank"> view source code </a></button>
+        </div>
+
+        <div className="project-item">
+          <img src={ wastenotwantnot } alt="waste not want not screenshot" />
+          <h1 className="project-title">Waste-Not Want-Not</h1>
+          <p className="project-detail">
+          This was a group project (x3) post Codeclan. It was built using Javascript and ReactNative. The app aims to minimise food waste. It fetches a data set from an external API and provides users with recipe suggestions based on specific ingredients. There is also an intolerance filter.
+        </p>
+        <div className="project-icon">
+        <img src={ reactnative } alt="react native logo" />
+        <img src={ javascript } alt="javascript logo" />
+        {/* <img src={ githubpages } alt="git hub pages logo" /> */}
+        </div>
+        <br />
+
+    {/* <button><a href="https://snooker-scorer-app.netlify.app" target="_blank"> view deployed site </a></button> */}
+    <button><a href="https://github.com/StevieV1903/food_app" target="_blank"> view source code </a></button>
         </div>
         
         
