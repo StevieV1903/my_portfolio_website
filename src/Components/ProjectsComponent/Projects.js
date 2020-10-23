@@ -13,6 +13,7 @@ import covid19 from "../../Images/covid19.png";
 import discoveringdunbar from "../../Images/discoveringdunbar.png";
 import snookerscorer from "../../Images/snookerscorer.png";
 import wastenotwantnot from "../../Images/wastenot.png";
+import weatherforecast from "../../Images/weatherforecast.png";
 
 import ruby from "../../Images/ruby.png";
 import sinatra from "../../Images/sinatra.png";
@@ -198,6 +199,23 @@ const Projects = () => {
 
     {/* <button><a href="https://snooker-scorer-app.netlify.app" target="_blank"> view deployed site </a></button> */}
     <button><a href="https://github.com/StevieV1903/food_app" target="_blank"> view source code </a></button>
+        </div>
+
+        <div className="project-item">
+          <img src={ weatherforecast } alt="weather app screenshot" />
+          <h1 className="project-title">Weather Forecaster</h1>
+          <p className="project-detail">
+          This was a group project (x3) post Codeclan. It was built using Javascript and Vue as the webframework. Using geolocation to locate a users coordinates, it fetches data from two API's and provides users with current weather and a 7-day forecast based on their location.
+        </p>
+        <div className="project-icon">
+        <img src={ vue } alt="vue logo" />
+        <img src={ javascript } alt="javascript logo" />
+        {/* <img src={ githubpages } alt="git hub pages logo" /> */}
+        </div>
+        <br />
+
+    {/* <button><a href="https://snooker-scorer-app.netlify.app" target="_blank"> view deployed site </a></button> */}
+    <button><a href="https://github.com/StevieV1903/weather_app" target="_blank"> view source code </a></button>
         </div>
         
         
