@@ -13,7 +13,7 @@ import covid19 from "../../Images/covid19.png";
 import discoveringdunbar from "../../Images/discoveringdunbar.png";
 import snookerscorer from "../../Images/snookerscorer.png";
 import wastenotwantnot from "../../Images/wastenot.png";
-import weatherforecast from "../../Images/weatherforecast.png";
+import weatherforecast from "../../Images/weatherforecast1.png";
 
 import ruby from "../../Images/ruby.png";
 import sinatra from "../../Images/sinatra.png";
@@ -210,11 +210,11 @@ const Projects = () => {
         <div className="project-icon">
         <img src={ vue } alt="vue logo" />
         <img src={ javascript } alt="javascript logo" />
-        {/* <img src={ githubpages } alt="git hub pages logo" /> */}
+        <img src={ netlify } alt="netlify logo" />
         </div>
         <br />
 
-    {/* <button><a href="https://snooker-scorer-app.netlify.app" target="_blank"> view deployed site </a></button> */}
+    <button><a href="https://weatherforecaster-app.netlify.app/" target="_blank"> view deployed site </a></button>
     <button><a href="https://github.com/StevieV1903/weather_app" target="_blank"> view source code </a></button>
         </div>
         
