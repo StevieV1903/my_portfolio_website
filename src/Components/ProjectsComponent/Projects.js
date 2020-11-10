@@ -14,6 +14,7 @@ import discoveringdunbar from "../../Images/discoveringdunbar.png";
 import snookerscorer from "../../Images/snookerscorer.png";
 import wastenotwantnot from "../../Images/wastenot.png";
 import weatherforecast from "../../Images/weatherforecast1.png";
+import munrobagger from "../../Images/munrobagger.png"
 
 import ruby from "../../Images/ruby.png";
 import sinatra from "../../Images/sinatra.png";
@@ -216,6 +217,23 @@ const Projects = () => {
 
     <button><a href="https://weatherforecaster-app.netlify.app/" target="_blank"> view deployed site </a></button>
     <button><a href="https://github.com/StevieV1903/weather_app" target="_blank"> view source code </a></button>
+        </div>
+
+        <div className="project-item">
+          <img src={ munrobagger } alt="munro bagger screenshot" />
+          <h1 className="project-title">Munro-Bagger</h1>
+          <p className="project-detail">
+          A group project (x3). Web-app built using Javascript and React as the webframework. Using tomtom maps sdk and a munro api, it fetches and plots data onto a map within the UI. Using firebase database it implements user authentication and tracks users completed munros.
+        </p>
+        <div className="project-icon">
+        <img src={ react } alt="react logo" />
+        <img src={ javascript } alt="javascript logo" />
+        <img src={ firebase } alt="firebase logo" />
+        </div>
+        <br />
+
+    <button><a href="https://munro-bagger-cca2f.web.app/" target="_blank"> view deployed site </a></button>
+    {/* <button><a href="https://github.com/StevieV1903/weather_app" target="_blank"> view source code </a></button> */}
         </div>
         
         
