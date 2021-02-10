@@ -15,6 +15,7 @@ import snookerscorer from "../../Images/snookerscorer.png";
 import wastenotwantnot from "../../Images/wastenot.png";
 import weatherforecast from "../../Images/weatherforecast1.png";
 import munrobagger from "../../Images/munrobagger.png"
+import spacex from "../../Images/spacex.png"
 
 import ruby from "../../Images/ruby.png";
 import sinatra from "../../Images/sinatra.png";
@@ -233,7 +234,23 @@ const Projects = () => {
         <br />
 
     <button><a href="https://munro-bagger-cca2f.web.app/" target="_blank"> view deployed site </a></button>
-    {/* <button><a href="https://github.com/StevieV1903/weather_app" target="_blank"> view source code </a></button> */}
+    <button><a href="https://github.com/StevieV1903/munro_bagging_app" target="_blank"> view source code </a></button>
+        </div>
+
+        <div className="project-item">
+          <img src={ spacex } alt="space-x" />
+          <h1 className="project-title">Space-X Launches</h1>
+          <p className="project-detail">
+          An individual project. Web-app built using Javascript and React as the webframework. Using a number of spaceX apis, it fetches and lists past and future rocket launches. It also allows filtering launches by date and a sorting launch by ascending and descending order.
+        </p>
+        <div className="project-icon">
+        <img src={ react } alt="react logo" />
+        <img src={ javascript } alt="javascript logo" />
+        </div>
+        <br />
+
+    {/* <button><a href="https://munro-bagger-cca2f.web.app/" target="_blank"> view deployed site </a></button> */}
+    <button><a href="https://github.com/StevieV1903/spacex_tracker" target="_blank"> view source code </a></button>
         </div>
         
         
