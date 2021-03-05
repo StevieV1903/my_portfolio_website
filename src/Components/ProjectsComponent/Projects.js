@@ -17,6 +17,8 @@ import weatherforecast from "../../Images/weatherforecast.png";
 import munrobagger from "../../Images/munrobagger.png"
 import spacex from "../../Images/spacex.png"
 import jokegen from "../../Images/jokegen.png"
+import calculator from "../../Images/calculator.png"
+import miricyl from "../../Images/miricyl.png"
 
 import ruby from "../../Images/ruby.png";
 import sinatra from "../../Images/sinatra.png";
@@ -35,6 +37,7 @@ import reactnative from "../../Images/reactnative.png";
 import firebase from "../../Images/firebase.png";
 import githubpages from "../../Images/githubpages.png";
 import netlify from "../../Images/netlify.png";
+import nodejs from "../../Images/nodejs.jpg";
 
 
 
@@ -258,17 +261,52 @@ const Projects = () => {
           <img src={ jokegen } alt="joke generator" />
           <h1 className="project-title">myJoke Generator</h1>
           <p className="project-detail">
-          An individual project. SPA responsive web-app built using React.js as the webframework. Using an external api, the app fetches and posts a random joke on a button click and renders in the UI. Working on button animations and loading features to improve the UX.
+          An individual project. myJoke Generator is a fully responsive reactjs SPA that makes a fetch to an external api and renders the joke on the click of a button and also requires the user to click a seperate button to reveal the punchline. Also includes some pretty awesome button animations.
         </p>
         <div className="project-icon">
         <img src={ react } alt="react logo" />
         <img src={ javascript } alt="javascript logo" />
+        <img src={ netlify } alt="netlify logo" />
         </div>
         <br />
 
     <button><a href="https://myjokegenerator.netlify.app/" target="_blank"> view deployed site </a></button>
     <button><a href="https://github.com/StevieV1903/joke_generator_application" target="_blank"> view source code </a></button>
         </div>
+
+        <div className="project-item">
+          <img src={ calculator } alt="calculator" />
+          <h1 className="project-title">Calculator App</h1>
+          <p className="project-detail">
+          A joint project. Responsive calculator app built using Javascript and React as the webframework. Using grid style CSS for the layout and react hooks and state, it acts and behaves like a calculator should. Allowing the user to complete mathematical operations.
+        </p>
+          <div className="project-icon">
+        <img src={ react } alt="react logo" />
+        <img src={ javascript } alt="javascript logo" />
+        </div>
+        <br />
+
+    {/* <button><a href="https://munro-bagger-cca2f.web.app/" target="_blank"> view deployed site </a></button> */}
+    <button><a href="https://github.com/StevieV1903/calculator_app" target="_blank"> view source code </a></button>
+        </div>
+
+        <div className="project-item">
+          <img src={ miricyl } alt="miricyl app" />
+          <h1 className="project-title">Miricyl App</h1>
+          <p className="project-detail">
+          Volunteering with the Scottish Tech Army assisting Miricyl, a charity that help children and young people affected by mental illness. Working as part of the front-end development team building the app from scratch, using React.js, Node.js, Express, MySQL and MS Azure.
+        </p>
+          <div className="project-icon">
+        <img src={ react } alt="react logo" />
+        <img src={ javascript } alt="javascript logo" />
+        <img src={ nodejs } alt="node js logo" />
+        </div>
+        <br />
+
+    <button><a href="https://help.miricyl.org/" target="_blank"> view deployed site </a></button>
+    {/* <button><a href="https://github.com/StevieV1903/calculator_app" target="_blank"> view source code </a></button> */}
+        </div>
+
         
         
         </div>
