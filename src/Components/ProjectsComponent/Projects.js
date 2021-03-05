@@ -13,9 +13,10 @@ import covid19 from "../../Images/covid19.png";
 import discoveringdunbar from "../../Images/discoveringdunbar.png";
 import snookerscorer from "../../Images/snookerscorer.png";
 import wastenotwantnot from "../../Images/wastenot.png";
-import weatherforecast from "../../Images/weatherforecast1.png";
+import weatherforecast from "../../Images/weatherforecast.png";
 import munrobagger from "../../Images/munrobagger.png"
 import spacex from "../../Images/spacex.png"
+import jokegen from "../../Images/jokegen.png"
 
 import ruby from "../../Images/ruby.png";
 import sinatra from "../../Images/sinatra.png";
@@ -243,7 +244,7 @@ const Projects = () => {
           <p className="project-detail">
           An individual project. Web-app built using Javascript and React as the webframework. Using a number of spaceX apis, it fetches and lists past and future rocket launches. It also allows filtering launches by date and a sorting launch by ascending and descending order.
         </p>
-        <div className="project-icon">
+          <div className="project-icon">
         <img src={ react } alt="react logo" />
         <img src={ javascript } alt="javascript logo" />
         </div>
@@ -252,10 +253,27 @@ const Projects = () => {
     {/* <button><a href="https://munro-bagger-cca2f.web.app/" target="_blank"> view deployed site </a></button> */}
     <button><a href="https://github.com/StevieV1903/spacex_tracker" target="_blank"> view source code </a></button>
         </div>
+
+        <div className="project-item">
+          <img src={ jokegen } alt="joke generator" />
+          <h1 className="project-title">myJoke Generator</h1>
+          <p className="project-detail">
+          An individual project. SPA responsive web-app built using React.js as the webframework. Using an external api, the app fetches and posts a random joke on a button click and renders in the UI. Working on button animations and loading features to improve the UX.
+        </p>
+        <div className="project-icon">
+        <img src={ react } alt="react logo" />
+        <img src={ javascript } alt="javascript logo" />
+        </div>
+        <br />
+
+    <button><a href="https://myjokegenerator.netlify.app/" target="_blank"> view deployed site </a></button>
+    <button><a href="https://github.com/StevieV1903/joke_generator_application" target="_blank"> view source code </a></button>
+        </div>
         
         
         </div>
         </div>
+    
     
         </>
         )
