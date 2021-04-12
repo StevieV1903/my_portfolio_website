@@ -38,6 +38,7 @@ import firebase from "../../Images/firebase.png";
 import githubpages from "../../Images/githubpages.png";
 import netlify from "../../Images/netlify.png";
 import nodejs from "../../Images/nodejs.jpg";
+import awsAmplify from "../../Images/awsAmplifyLogo.png";
 
 
 
@@ -245,7 +246,7 @@ const Projects = () => {
           <img src={ spacex } alt="space-x" />
           <h1 className="project-title">Space-X Launches</h1>
           <p className="project-detail">
-          An individual project. Web-app built using Javascript and React as the webframework. Using a number of spaceX apis, it fetches and lists past and future rocket launches. It also allows filtering launches by date and a sorting launch by ascending and descending order.
+          An individual project. Web-app built using Javascript and React as the webframework. Using a number of spaceX apis, it fetches and lists past and future rocket launches. It also allows the user to filter all the launches by date and sort launches by ascending and descending order.
         </p>
           <div className="project-icon">
         <img src={ react } alt="react logo" />
@@ -278,15 +279,16 @@ const Projects = () => {
           <img src={ calculator } alt="calculator" />
           <h1 className="project-title">Calculator App</h1>
           <p className="project-detail">
-          A joint project. Responsive calculator app built using Javascript and React as the webframework. Using grid style CSS for the layout and react hooks and state, it acts and behaves like a calculator should. Allowing the user to complete mathematical operations.
+          A paired project. Responsive calculator app built using Javascript and React as the webframework. Using grid style CSS for the layout and react hooks and state, it acts and behaves like a calculator should, allowing the user to complete mathematical operations.
         </p>
           <div className="project-icon">
         <img src={ react } alt="react logo" />
         <img src={ javascript } alt="javascript logo" />
+        <img src={ awsAmplify } alt="AWS Amplify" />
         </div>
         <br />
 
-    {/* <button><a href="https://munro-bagger-cca2f.web.app/" target="_blank"> view deployed site </a></button> */}
+    <button><a href="https://main.d32umybxq09b6x.amplifyapp.com/" target="_blank"> view deployed site </a></button>
     <button><a href="https://github.com/StevieV1903/calculator_app" target="_blank"> view source code </a></button>
         </div>
 
@@ -306,6 +308,23 @@ const Projects = () => {
     <button><a href="https://help.miricyl.org/" target="_blank"> view deployed site </a></button>
     {/* <button><a href="https://github.com/StevieV1903/calculator_app" target="_blank"> view source code </a></button> */}
         </div>
+
+        {/* <div className="project-item">
+          <img src={ calculator } alt="calculator" />
+          <h1 className="project-title">Calculator</h1>
+          <p className="project-detail">
+          A paired project. Web-app built using Javascript and React as the webframework. Using a number of spaceX apis, it fetches and lists past and future rocket launches. It also allows filtering launches by date and a sorting launch by ascending and descending order. It behaves and operates like a calculator should.
+        </p>
+          <div className="project-icon">
+        <img src={ react } alt="react" />
+        <img src={ javascript } alt="javascript" />
+        <img src={ awsAmplify } alt="AWS Amplify" />
+        </div>
+        <br /> */}
+
+    {/* <button><a href="https://munro-bagger-cca2f.web.app/" target="_blank"> view deployed site </a></button> */}
+    {/* <button><a href="https://github.com/StevieV1903/spacex_tracker" target="_blank"> view source code </a></button> */}
+        {/* </div> */}
 
         
         
