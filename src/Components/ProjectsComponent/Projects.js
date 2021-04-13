@@ -19,6 +19,7 @@ import spacex from "../../Images/spacex.png"
 import jokegen from "../../Images/jokegen.png"
 import calculator from "../../Images/calculator.png"
 import miricyl from "../../Images/miricyl.png"
+import toptunes from "../../Images/toptunes.png"
 
 import ruby from "../../Images/ruby.png";
 import sinatra from "../../Images/sinatra.png";
@@ -262,7 +263,7 @@ const Projects = () => {
           <img src={ jokegen } alt="joke generator" />
           <h1 className="project-title">myJoke Generator</h1>
           <p className="project-detail">
-          An individual project. myJoke Generator is a fully responsive reactjs SPA that makes a fetch to an external api and renders the joke on the click of a button and also requires the user to click a seperate button to reveal the punchline. Also includes some pretty awesome button animations.
+          An individual project. myJoke Generator is a fully responsive React.js SPA that makes a fetch to an external api and renders the joke on the click of a button and also requires the user to click a seperate button to reveal the punchline. Also includes some pretty awesome button animations.
         </p>
         <div className="project-icon">
         <img src={ react } alt="react logo" />
@@ -279,7 +280,7 @@ const Projects = () => {
           <img src={ calculator } alt="calculator" />
           <h1 className="project-title">Calculator App</h1>
           <p className="project-detail">
-          A paired project. Responsive calculator app built using Javascript and React as the webframework. Using grid style CSS for the layout and react hooks and state, it acts and behaves like a calculator should, allowing the user to complete mathematical operations.
+          A paired project. Responsive app built using React.js as the webframework and hosted on AWS Amplify. Using grid style CSS for the layout and react hooks and state, it acts and behaves like a calculator should, allowing the user to complete mathematical operations.
         </p>
           <div className="project-icon">
         <img src={ react } alt="react logo" />
@@ -309,22 +310,22 @@ const Projects = () => {
     {/* <button><a href="https://github.com/StevieV1903/calculator_app" target="_blank"> view source code </a></button> */}
         </div>
 
-        {/* <div className="project-item">
-          <img src={ calculator } alt="calculator" />
-          <h1 className="project-title">Calculator</h1>
+        <div className="project-item">
+          <img src={ toptunes } alt="top tunes" />
+          <h1 className="project-title">Top 40 Tunes</h1>
           <p className="project-detail">
-          A paired project. Web-app built using Javascript and React as the webframework. Using a number of spaceX apis, it fetches and lists past and future rocket launches. It also allows filtering launches by date and a sorting launch by ascending and descending order. It behaves and operates like a calculator should.
+          An individual project. A responsive SPA using React.js. It fetches an api from apple music and displays the most popular tunes. It also lets the user listen to a 30 sec. sample of the song with the play & pause toggle. The app also lets the user toggle between light and dark mode.
         </p>
           <div className="project-icon">
         <img src={ react } alt="react" />
         <img src={ javascript } alt="javascript" />
         <img src={ awsAmplify } alt="AWS Amplify" />
         </div>
-        <br /> */}
+        <br />
 
-    {/* <button><a href="https://munro-bagger-cca2f.web.app/" target="_blank"> view deployed site </a></button> */}
-    {/* <button><a href="https://github.com/StevieV1903/spacex_tracker" target="_blank"> view source code </a></button> */}
-        {/* </div> */}
+    <button><a href="https://master.d2fykhzd9mmkes.amplifyapp.com//" target="_blank"> view deployed site </a></button>
+    <button><a href="https://github.com/StevieV1903/react_api_lab" target="_blank"> view source code </a></button>
+        </div>
 
         
         
