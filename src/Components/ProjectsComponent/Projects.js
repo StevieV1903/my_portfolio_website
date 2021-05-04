@@ -20,6 +20,7 @@ import jokegen from "../../Images/jokegen.png"
 import calculator from "../../Images/calculator.png"
 import miricyl from "../../Images/miricyl.png"
 import toptunes from "../../Images/toptunes.png"
+import hangman from "../../Images/hangman.png"
 
 import ruby from "../../Images/ruby.png";
 import sinatra from "../../Images/sinatra.png";
@@ -323,8 +324,25 @@ const Projects = () => {
         </div>
         <br />
 
-    <button><a href="https://master.d2fykhzd9mmkes.amplifyapp.com//" target="_blank"> view deployed site </a></button>
+    <button><a href="https://master.d2fykhzd9mmkes.amplifyapp.com/" target="_blank"> view deployed site </a></button>
     <button><a href="https://github.com/StevieV1903/react_api_lab" target="_blank"> view source code </a></button>
+        </div>
+
+        <div className="project-item">
+          <img src={ hangman } alt="hangman" />
+          <h1 className="project-title">Hangman Game</h1>
+          <p className="project-detail">
+          A group project (x3). A responsive SPA using React.js. It fetches from many external apis based on the category chosen. A typical hangman game, the user has seven lives and can choose to reveal a hint if required. It displays an image based on number of wrong guesses.
+        </p>
+          <div className="project-icon">
+        <img src={ react } alt="react" />
+        <img src={ javascript } alt="javascript" />
+        <img src={ awsAmplify } alt="AWS Amplify" />
+        </div>
+        <br />
+
+    <button><a href="https://main.d19fxw1vralx7u.amplifyapp.com/" target="_blank"> view deployed site </a></button>
+    <button><a href="https://github.com/StevieV1903/word_game" target="_blank"> view source code </a></button>
         </div>
 
         
