@@ -18,12 +18,14 @@
 
 
 .about-container {
-    margin: 40px 60px;
+    margin: 40px 30px;
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: 25% 75%;
-    grid-gap: 20px;
+    grid-template-columns: 25% 70%;
+    grid-gap: 10px;
     align-items: center;  
+    justify-content: center;
+    align-content: center;
   }
 
   .about-headshot {
@@ -49,7 +51,7 @@
     box-shadow: 0 5px 15px 0px #000000cc;
     height: 325px;
     overflow: auto; 
-    margin-right: 40px;
+    margin-right: 20px;
   }
   
   .about-text h1 {

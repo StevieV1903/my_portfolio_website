@@ -24,9 +24,13 @@
 
   .contact-body {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 30px;
     padding: 10px;
-    justify-items: center;
+    align-items: center;  
+    justify-content: center;
+    align-content: center;
+    margin: 0 40px 0 40px;
 }
 
   .contact-form-container {
@@ -35,28 +39,42 @@
     border-radius: 12px;
     box-shadow: 0 5px 15px 0px #000000cc;
     background-color: white;
-    margin: 0 10px 10px 10px;
+    margin: 0;
     font-family: 'Bai Jamjuree', sans-serif;
-    min-width: 1000px;
+    /* min-width: 1000px; */
+    /* width: 100%; */
+}
+.tweet-container {
+  /* border: solid 1px black; */
+  /* border-radius: 30px; */
+  box-shadow: 0 5px 15px 0px #000000cc;
 }
 
 
 /* RESPONSIVE RULES  */
 
 @media screen and (max-width: 1205px) {
+  .contact-body {
+    grid-template-columns: 70% 30%;
+    grid-gap: 15px;
+    margin: 0 30px 0 30px;
+}
     .contact-description-container {
       margin: 60px 30px 20px 30px;
     }  
     .contact-form-container {
         padding: 20px;
-        min-width: 800px;
     }
   }
 
   @media screen and (max-width: 870px) {
+    .contact-body {
+      grid-template-columns: 1fr;
+      grid-gap: 15px;
+      margin: 0 15px 0 15px;
+  }
     .contact-form-container {
         padding: 20px;
-        min-width: 0;
     }
   
 }

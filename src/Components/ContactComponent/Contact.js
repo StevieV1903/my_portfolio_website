@@ -4,6 +4,7 @@ import ContactForm from "./ContactForm.js";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { TwitterTimelineEmbed } from 'react-twitter-embed';
 
 
 const Contact = () => {
@@ -32,6 +33,21 @@ const Contact = () => {
                 <div className="contact-form-container">
                     <ContactForm />
                 </div>
+                    <div className="tweet-container">
+                        <TwitterTimelineEmbed className="tweet-deck"
+                        sourceType="profile"
+                        screenName="StevieVance"
+                        // theme="dark"
+                        // borderColor="#5d001e"
+                        // noHeader
+                        // noFooter
+                        // Style options goes here:
+                        options={{ 
+                        height: 450
+                        
+                        }}
+                        />
+                    </div> 
             </div>
             
     </div> 
