@@ -12,6 +12,7 @@ const Contact = () => {
     useEffect(()=> {
         window.scrollTo( 0, 0 )
     });
+    
 
     return (
         
@@ -37,13 +38,15 @@ const Contact = () => {
                         <TwitterTimelineEmbed className="tweet-deck"
                         sourceType="profile"
                         screenName="StevieVance"
-                        // theme="dark"
-                        // borderColor="#5d001e"
+                        borderColor="#CDDC39"
+                        theme="dark"
+                        // cards="hidden"
+                        // media="false"
                         // noHeader
                         // noFooter
                         // Style options goes here:
                         options={{ 
-                        height: 450
+                        height: 470
                         
                         }}
                         />
