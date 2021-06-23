@@ -21,6 +21,8 @@ import calculator from "../../Images/calculator.png"
 import miricyl from "../../Images/miricyl.png"
 import toptunes from "../../Images/toptunes.png"
 import hangman from "../../Images/hangman.png"
+import lottery from "../../Images/lottery.png"
+import rps from "../../Images/rps.png"
 
 import ruby from "../../Images/ruby.png";
 import sinatra from "../../Images/sinatra.png";
@@ -343,6 +345,40 @@ const Projects = () => {
 
     <button><a href="https://main.d19fxw1vralx7u.amplifyapp.com/" target="_blank"> view deployed site </a></button>
     <button><a href="https://github.com/StevieV1903/word_game" target="_blank"> view source code </a></button>
+        </div>
+
+        <div className="project-item">
+          <img src={ lottery } alt="lottery picker" />
+          <h1 className="project-title">Lottery Numbers</h1>
+          <p className="project-detail">
+          An individual project. An SPA that is written in javascript and uses React as the web framework. The application allows users to select from a choice of lottery games and proceeds to select random lottery numbers for the selected game based on the requirements and number ranges.
+        </p>
+          <div className="project-icon">
+        <img src={ react } alt="react" />
+        <img src={ javascript } alt="javascript" />
+        <img src={ awsAmplify } alt="AWS Amplify" />
+        </div>
+        <br />
+
+    <button><a href="https://main.d1ccjr7ryl4ter.amplifyapp.com/" target="_blank"> view deployed site </a></button>
+    <button><a href="https://github.com/StevieV1903/lottery_numbers_picker" target="_blank"> view source code </a></button>
+        </div>
+
+        <div className="project-item">
+          <img src={ rps } alt="rock paper scisscors" />
+          <h1 className="project-title">Rock, Paper, Scissors</h1>
+          <p className="project-detail">
+          An individual project. A simple Rock, Paper, Scissors game, written in javascript, using React as the web framework. It allows a player to pick a weapon and play against the computer's randomly drawn weapon. There is a score tracker winner and the scores can be reset at any time.
+        </p>
+          <div className="project-icon">
+        <img src={ react } alt="react" />
+        <img src={ javascript } alt="javascript" />
+        <img src={ awsAmplify } alt="AWS Amplify" />
+        </div>
+        <br />
+
+    <button><a href="https://main.d8crcfdicg30c.amplifyapp.com/" target="_blank"> view deployed site </a></button>
+    <button><a href="https://github.com/StevieV1903/rock_paper_scissors" target="_blank"> view source code </a></button>
         </div>
 
         
