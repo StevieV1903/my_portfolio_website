@@ -7,6 +7,8 @@ import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { faFolderOpen } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
+import svLogo from '../../Images/svLogo.png'
+
 const NavBar = () => {
     
     return (
@@ -15,7 +17,7 @@ const NavBar = () => {
         <nav className="navbar">
             
             <div className="title">
-                <span> StevieV1903 </span>
+                <img src={ svLogo }></img>
             </div>
 
             <ul className="navlist"> 
