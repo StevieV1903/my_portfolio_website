@@ -258,7 +258,7 @@ const Projects = () => {
         </div>
         <br />
 
-    {/* <button><a href="https://munro-bagger-cca2f.web.app/" target="_blank"> view deployed site </a></button> */}
+    <button><a href="https://space-x-tracking.netlify.app" target="_blank"> view deployed site </a></button>
     <button><a href="https://github.com/StevieV1903/spacex_tracker" target="_blank"> view source code </a></button>
         </div>
 
