@@ -16,20 +16,20 @@ const About = () => {
     return (
         <>
         <header>
-        <div className="about-description-container">
-        <h1 className="about-title">
-        <FontAwesomeIcon icon={faUser} />
-                    <span> About_Me</span></h1>
-        <hr></hr>
-        </div>
-      </header>
-        <div className="about-container">
-          <img
-            className="about-headshot"
-            src={headshot}
-            alt="headshot of steve vance"
-          />
-            <div className="about-text">
+          <div className="about-description-container">
+             <h1 className="about-title">
+                <FontAwesomeIcon icon={faUser} />
+                  <span> About_Me</span></h1>
+                  <hr></hr>
+          </div>
+        </header>
+          <div className="about-container">
+            <img
+              className="about-headshot"
+              src={headshot}
+              alt="headshot of steve vance"
+            />
+              <div className="about-text">
                 <h1>
                 Welcome to my portfolio site.
                 </h1>
@@ -51,12 +51,9 @@ const About = () => {
                 </p>
                 <p>
                 In my spare time, I love to play chess, cricket and table tennis. I also enjoy walking, cycling, cooking pizza and ofcourse, practising my coding skills. 
-                </p>
-
-            
-          </div> 
-          
-        </div>
+                </p>            
+              </div> 
+          </div>
     </>
   );
 };

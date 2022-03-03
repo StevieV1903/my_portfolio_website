@@ -1,10 +1,11 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
+
 import "./HomePage.css";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFolderOpen } from '@fortawesome/free-solid-svg-icons';
-import headshot from "../../Images/headshot_BW.jpg";
+import homeImg from '../../Images/homeGraphic.svg';
 
 const HomePage = () => {
 
@@ -27,7 +28,11 @@ const HomePage = () => {
                         c&lt;&gt;de
                     </div>
                 </div>
-                <div className="home-button-container">
+                <div className="home-image-container">
+                    <img className="home-image" src={homeImg} alt="digital graphic" />
+                </div>
+            </div>
+            <div className="home-button-container">
                     <button className="home-button">
                         <Link to="/Projects">
                         <FontAwesomeIcon icon={faFolderOpen} />
@@ -35,7 +40,6 @@ const HomePage = () => {
                         </Link>
                     </button>
                 </div>
-            </div>
         </div>
         </>
     )
