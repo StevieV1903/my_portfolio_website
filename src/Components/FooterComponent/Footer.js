@@ -93,6 +93,10 @@ const Footer = () => {
                     <img src={ github } alt="github logo" />
                 </li>
             </ul>
+            <div className="footer-row-bottom">
+                    <p>&copy;{new Date().getFullYear()} StevieV1903  | All Rights Reserved. </p>
+
+                </div>
         </div>
     )
 }
