@@ -44,6 +44,9 @@ import netlify from "../../Images/netlify.png";
 import nodejs from "../../Images/nodejs.jpg";
 import awsAmplify from "../../Images/awsAmplifyLogo.png";
 
+import { webProjects } from "../../Helpers/WebProjects.js"
+
+
 
 
 
@@ -54,11 +57,75 @@ const Projects = () => {
     window.scrollTo( 0, 0 )
   });
 
+  // let technicalIcons
+
+  // const getArray = () => {
+  //   webProjects.map(( project ) => {
+  //     technicalIcons = project.techIcons
+  //   })
+  //   return technicalIcons
+  // }
+
+ 
+
+
+    // webProjects.map(( project, index ) => {
+    //   console.log(project.projectTitle, 
+    //     project.projectDetail,
+    //     project.projectHeaderImage,
+    //     index)
+
+    //     project.techIcons.forEach(( icon, index ) => {
+    //       console.log(icon.link, icon.alt)
+    //     })
+    // })
+  // }
+
+  // let technicalIcons
+
+  // const myFunction2 = () => {
+  //  webProjects.map(( project )=> {
+  //   technicalIcons = project.techIcons
+  //   console.log(technicalIcons)
+  //   })
+  //   technicalIcons.map(( icon ))
+    // ( icon => icon.links.forEach(link => console.log(link) ))
+  // }
+
+
+  // function shallowIterator (webProjects) {
+  //   for (const key in target) {
+  //     console.log(webProjects[key]);
+  //   }
+  // }
+
+
+  
+
+
+  // <div className="slider">
+  //           {imageSliderData.map(( slide, index )=> {
+  //               // console.log(slide.image)
+                
+  //               return(
+  //                   <div className={ index === currentSlide ? 'slide active' : 'slide' } key={index}>
+  //                   {index === currentSlide && (
+  //                   <>
+  //                   <img className="slider-image" src={slide.image} alt={ slide.alt} key={index} />
+  //                   <p className="slider-image-caption">{slide.caption}</p>
+  //                   </>
+  //                   )}
+  //                   </div>
+             
+  //               )
+                
+  //           })
+            
+  //           }
+
     return (
         
         <>
-        
-
       <header>
         <div className="projects-description-container">
         <h1 className="projects-title">
@@ -71,10 +138,44 @@ const Projects = () => {
         </div>
       </header>
 
+<div className="project-banner">
+<div className="project-container">
+      {webProjects.map(( project ) => {
+        return(
+          <>
+          
+              <div className="project-item">
+                <img src={ project.projectHeaderImage } alt={project.projectHeaderAlt} />
+                  <h1 className="project-title" >{ project.projectTitle }</h1>
+                    <p className="project-detail" >{ project.projectDetail }</p>
+              
+                    {project.techIcons.map(( icon )=> {
+                    return(
+                    <>
+                      <div className="project-icon">
+                      <img src={icon.link} alt={icon.alt}/>
+                      </div>
+                    </>
+                    )
+                  })}
+                  <br/>
+
+                    { project.deployURL ? <button><a href={project.deployURL} target="_blank"> view deployed site </a></button> : null }
+                    { project.sourceURL ? <button><a href={project.sourceURL} target="_blank"> view source code </a></button> : null }
+
+              </div>
+            
+          </>
+        )
+      })}
+  </div>
+  </div>
+      
+
       <div className="projects-banner">
         <div className="project-container">
         
-        <div className="project-item">
+        {/* <div className="project-item">
           <img src={ gym } alt="gym app screenshot" />
           <h1 className="project-title"> The Gymnasium</h1>
           <p className="project-detail">
@@ -90,9 +191,9 @@ const Projects = () => {
 
     <button><a href="https://rubygymnasium.herokuapp.com/" target="_blank"> view deployed site </a></button>
     <button><a href="https://github.com/StevieV1903/the_ruby_gymnasium" target="_blank"> view source code </a></button>
-        </div>
+        </div> */}
 
-        <div className="project-item">
+        {/* <div className="project-item">
           <img src={ worldquiz } alt="world map screenshot" />
           <h1 className="project-title">World Map Quiz</h1>
           <p className="project-detail">
@@ -108,9 +209,9 @@ const Projects = () => {
 
     <button><a href="https://sv-world-quiz.herokuapp.com/" target="_blank"> view deployed site </a></button>
     <button><a href="https://github.com/StevieV1903/world_quiz_group_project" target="_blank"> view source code </a></button>
-        </div>
+        </div> */}
 
-        <div className="project-item">
+        {/* <div className="project-item">
           <img src={ jobswipe } alt="jobswipe screenshot" />
           <h1 className="project-title">JobSwipe</h1>
           <p className="project-detail">
@@ -124,11 +225,11 @@ const Projects = () => {
         </div>
         <br />
 
-    {/* <button><a href="https://rubygymnasium.herokuapp.com/" target="_blank"> view deployed site </a></button>
-    <button><a href="https://github.com/StevieV1903/the_ruby_gymnasium" target="_blank"> view source code </a></button> */}
-        </div>
+    <button><a href="https://rubygymnasium.herokuapp.com/" target="_blank"> view deployed site </a></button>
+    <button><a href="https://github.com/StevieV1903/the_ruby_gymnasium" target="_blank"> view source code </a></button>
+        </div> */}
 
-        <div className="project-item">
+        {/* <div className="project-item">
           <img src={ sspca } alt="sspac app screenshot" />
           <h1 className="project-title">Scottish SPCA</h1>
           <p className="project-detail">
@@ -141,11 +242,11 @@ const Projects = () => {
         </div>
         <br />
 
-    {/* <button><a href="https://rubygymnasium.herokuapp.com/" target="_blank"> view deployed site </a></button> */}
+    <button><a href="https://rubygymnasium.herokuapp.com/" target="_blank"> view deployed site </a></button>
     <button><a href="https://github.com/StevieV1903/cx_sspca_animal_info" target="_blank"> view source code </a></button>
-        </div>
+        </div> */}
 
-        <div className="project-item">
+        {/* <div className="project-item">
           <img src={ covid19 } alt="covid app screenshot" />
           <h1 className="project-title">COVID-19 Tracker</h1>
           <p className="project-detail">
@@ -157,11 +258,11 @@ const Projects = () => {
         </div>
         <br />
 
-    {/* <button><a href="https://rubygymnasium.herokuapp.com/" target="_blank"> view deployed site </a></button> */}
+    <button><a href="https://rubygymnasium.herokuapp.com/" target="_blank"> view deployed site </a></button>
     <button><a href="https://github.com/StevieV1903/solo_react_native_api_May2020" target="_blank"> view source code </a></button>
-        </div>
+        </div> */}
 
-        <div className="project-item">
+        {/* <div className="project-item">
           <img src={ discoveringdunbar } alt="discovering dunbar screenshot" />
           <h1 className="project-title">Discovering Dunbar</h1>
           <p className="project-detail">
@@ -176,7 +277,7 @@ const Projects = () => {
 
     <button><a href="https://steviev1903.github.io/react-dunbar-pages/" target="_blank"> view deployed site </a></button>
     <button><a href="https://github.com/StevieV1903/react-dunbar-pages" target="_blank"> view source code </a></button>
-        </div>
+        </div> */}
 
         <div className="project-item">
           <img src={ snookerscorer } alt="snooker scorer screenshot" />

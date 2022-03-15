@@ -56,10 +56,11 @@
 
     width: 320px;
     height: 200px;
-    border: 1px solid black;
-    border-radius: 20px;
+    border: 1px solid darkgrey;
+    /* border-radius: 20px; */
     margin-top: 15px;
     padding: 0;
+   
   }
   
   .project-title {
@@ -71,6 +72,12 @@
     text-transform: uppercase;
   }
 
+  .project-icon {
+    display: inline-block;
+    margin-bottom: 10px;
+  
+  }
+
   .project-icon img {
     width: 40px;
     height: 40px;
@@ -78,6 +85,7 @@
     border: none;
     border-radius: 0;
     margin-top: 0;
+    
   }
 
   .project-detail {               
@@ -88,8 +96,8 @@
   }
 
   button {
-    margin: 0 10px 10px 10px;
-    min-width: 120px;
+    margin: 0px 10px 10px 10px;
+    min-width: 60%;
     min-height: 40px;
     border: 1px solid black;
     border-radius: 12px;
@@ -122,7 +130,7 @@
     }
     .project-item {
       max-width: 310px;
-      min-height: 630px;
+      min-height: 610px;
       padding: 10px;
       margin: 5px;
     }
