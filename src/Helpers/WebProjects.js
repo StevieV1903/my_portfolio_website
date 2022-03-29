@@ -331,28 +331,77 @@ export const webProjects = [
         ],
         deployURL: "https://master.d2fykhzd9mmkes.amplifyapp.com/",
         sourceURL: "https://github.com/StevieV1903/react_api_lab"
+    },
+    {
+        projectHeaderImage: require("../Images/hangman.png"),
+        projectHeaderAlt: "hangman application screenshot",
+        projectTitle: "Hangman Game",
+        projectDetail: "A group project (x3). A responsive SPA using React.js. It fetches from many external apis based on the category chosen. A typical hangman game, the user has seven lives and can choose to reveal a hint if required. It displays an image based on number of wrong guesses.",
+        techIcons: [
+            {
+                link: require("../Images/react.png"), 
+                alt: "react"
+            },
+            {
+                link: require("../Images/javascript.png"), 
+                alt: "javascript"
+            },
+            {
+                link: require("../Images/awsAmplifyLogo.png"), 
+                alt: "aws amplify"
+            }
+        ],
+        deployURL: "https://main.d19fxw1vralx7u.amplifyapp.com/",
+        sourceURL: "https://github.com/StevieV1903/word_game"
+    },
+    {
+        projectHeaderImage: require("../Images/lottery.png"),
+        projectHeaderAlt: "lottery numbers picker application screenshot",
+        projectTitle: "Lottery Numbers",
+        projectDetail: "An individual project. An SPA that is written in javascript and uses React as the web framework. The application allows users to select from a choice of lottery games and proceeds to select random lottery numbers for the selected game based on the requirements and number ranges.",
+        techIcons: [
+            {
+                link: require("../Images/react.png"), 
+                alt: "react"
+            },
+            {
+                link: require("../Images/javascript.png"), 
+                alt: "javascript"
+            },
+            {
+                link: require("../Images/awsAmplifyLogo.png"), 
+                alt: "aws amplify"
+            }
+        ],
+        deployURL: "https://main.d1ccjr7ryl4ter.amplifyapp.com/",
+        sourceURL: "https://github.com/StevieV1903/lottery_numbers_picker"
+    },
+    {
+        projectHeaderImage: require("../Images/rps.png"),
+        projectHeaderAlt: "rock paper scissors screenshot",
+        projectTitle: "Rock, Paper, Scissors",
+        projectDetail: "An individual project. A simple Rock, Paper, Scissors game, written in javascript, using React as the web framework. It allows a player to pick a weapon and play against the computer's randomly drawn weapon. There is a score tracker winner and the scores can be reset at any time.",
+        techIcons: [
+            {
+                link: require("../Images/react.png"), 
+                alt: "react"
+            },
+            {
+                link: require("../Images/javascript.png"), 
+                alt: "javascript"
+            },
+            {
+                link: require("../Images/awsAmplifyLogo.png"), 
+                alt: "aws amplify"
+            }
+        ],
+        deployURL: "https://main.d8crcfdicg30c.amplifyapp.com",
+        sourceURL: "https://github.com/StevieV1903/rock_paper_scissors"
     }
 
 ]
 
 
-
-{/* <div className="project-item">
-          <img src={ toptunes } alt="top tunes" />
-          <h1 className="project-title">Top 40 Tunes</h1>
-          <p className="project-detail">
-          An individual project. A responsive SPA using React.js. It fetches an api from apple music and displays the most popular tunes. It also lets the user listen to a 30 sec. sample of the song with the play & pause toggle. The app also lets the user toggle between light and dark mode.
-        </p>
-          <div className="project-icon">
-        <img src={ react } alt="react" />
-        <img src={ javascript } alt="javascript" />
-        <img src={ awsAmplify } alt="AWS Amplify" />
-        </div>
-        <br />
-
-    <button><a href="https://master.d2fykhzd9mmkes.amplifyapp.com/" target="_blank"> view deployed site </a></button>
-    <button><a href="https://github.com/StevieV1903/react_api_lab" target="_blank"> view source code </a></button>
-        </div> */}
 
 
 
