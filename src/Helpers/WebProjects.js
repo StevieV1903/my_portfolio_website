@@ -265,6 +265,72 @@ export const webProjects = [
         ],
         deployURL: "https://myjokegenerator.netlify.app",
         sourceURL: "https://github.com/StevieV1903/joke_generator_application"
+    },
+    {
+        projectHeaderImage: require("../Images/calculator.png"),
+        projectHeaderAlt: "calculator application screenshot",
+        projectTitle: "Calculator App",
+        projectDetail: "A paired project. Responsive app built using React.js as the webframework and hosted on AWS Amplify. Using grid style CSS for the layout and react hooks and state, it acts and behaves like a calculator should, allowing the user to complete mathematical operations.",
+        techIcons: [
+            {
+                link: require("../Images/react.png"), 
+                alt: "react"
+            },
+            {
+                link: require("../Images/javascript.png"), 
+                alt: "javascript"
+            },
+            {
+                link: require("../Images/awsAmplifyLogo.png"), 
+                alt: "aws amplify"
+            }
+        ],
+        deployURL: "https://main.d32umybxq09b6x.amplifyapp.com/",
+        sourceURL: "https://github.com/StevieV1903/calculator_app"
+    },
+    {
+        projectHeaderImage: require("../Images/miricyl.png"),
+        projectHeaderAlt: "miricyl application screenshot",
+        projectTitle: "Miricyl App",
+        projectDetail: "Volunteering with the Scottish Tech Army assisting Miricyl, a charity that help children and young people affected by mental illness. Working as part of the front-end development team building the app from scratch, using React.js, Node.js, Express, MySQL and MS Azure.",
+        techIcons: [
+            {
+                link: require("../Images/react.png"), 
+                alt: "react"
+            },
+            {
+                link: require("../Images/javascript.png"), 
+                alt: "javascript"
+            },
+            {
+                link: require("../Images/nodejs.jpg"), 
+                alt: "node JS"
+            }
+        ],
+        deployURL: "https://help.miricyl.org/",
+        sourceURL: null
+    },
+    {
+        projectHeaderImage: require("../Images/toptunes.png"),
+        projectHeaderAlt: "top 40 tunes application screenshot",
+        projectTitle: "Top 40 Tunes",
+        projectDetail: "An individual project. A responsive SPA using React.js. It fetches an api from apple music and displays the most popular tunes. It also lets the user listen to a 30 sec. sample of the song with the play & pause toggle. The app also lets the user toggle between light and dark mode.",
+        techIcons: [
+            {
+                link: require("../Images/react.png"), 
+                alt: "react"
+            },
+            {
+                link: require("../Images/javascript.png"), 
+                alt: "javascript"
+            },
+            {
+                link: require("../Images/awsAmplifyLogo.png"), 
+                alt: "aws amplify"
+            }
+        ],
+        deployURL: "https://master.d2fykhzd9mmkes.amplifyapp.com/",
+        sourceURL: "https://github.com/StevieV1903/react_api_lab"
     }
 
 ]
@@ -272,20 +338,20 @@ export const webProjects = [
 
 
 {/* <div className="project-item">
-          <img src={ jokegen } alt="joke generator" />
-          <h1 className="project-title">myJoke Generator</h1>
+          <img src={ toptunes } alt="top tunes" />
+          <h1 className="project-title">Top 40 Tunes</h1>
           <p className="project-detail">
-          An individual project. myJoke Generator is a fully responsive React.js SPA that makes a fetch to an external api and renders the joke on the click of a button and also requires the user to click a seperate button to reveal the punchline. Also includes some pretty awesome button animations.
+          An individual project. A responsive SPA using React.js. It fetches an api from apple music and displays the most popular tunes. It also lets the user listen to a 30 sec. sample of the song with the play & pause toggle. The app also lets the user toggle between light and dark mode.
         </p>
-        <div className="project-icon">
-        <img src={ react } alt="react logo" />
-        <img src={ javascript } alt="javascript logo" />
-        <img src={ netlify } alt="netlify logo" />
+          <div className="project-icon">
+        <img src={ react } alt="react" />
+        <img src={ javascript } alt="javascript" />
+        <img src={ awsAmplify } alt="AWS Amplify" />
         </div>
         <br />
 
-    <button><a href="https://myjokegenerator.netlify.app/" target="_blank"> view deployed site </a></button>
-    <button><a href="https://github.com/StevieV1903/joke_generator_application" target="_blank"> view source code </a></button>
+    <button><a href="https://master.d2fykhzd9mmkes.amplifyapp.com/" target="_blank"> view deployed site </a></button>
+    <button><a href="https://github.com/StevieV1903/react_api_lab" target="_blank"> view source code </a></button>
         </div> */}
 
 
