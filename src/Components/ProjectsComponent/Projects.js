@@ -279,7 +279,7 @@ const Projects = () => {
     <button><a href="https://github.com/StevieV1903/react-dunbar-pages" target="_blank"> view source code </a></button>
         </div> */}
 
-        <div className="project-item">
+        {/* <div className="project-item">
           <img src={ snookerscorer } alt="snooker scorer screenshot" />
           <h1 className="project-title">Snooker Scorer</h1>
           <p className="project-detail">
@@ -294,9 +294,9 @@ const Projects = () => {
 
     <button><a href="https://snooker-scorer-app.netlify.app" target="_blank"> view deployed site </a></button>
     <button><a href="https://github.com/StevieV1903/snooker_scorer_cjs" target="_blank"> view source code </a></button>
-        </div>
+        </div> */}
 
-        <div className="project-item">
+        {/* <div className="project-item">
           <img src={ wastenotwantnot } alt="waste not want not screenshot" />
           <h1 className="project-title">Waste-Not Want-Not</h1>
           <p className="project-detail">
@@ -305,15 +305,14 @@ const Projects = () => {
         <div className="project-icon">
         <img src={ reactnative } alt="react native logo" />
         <img src={ javascript } alt="javascript logo" />
-        {/* <img src={ githubpages } alt="git hub pages logo" /> */}
         </div>
         <br />
 
-    {/* <button><a href="https://snooker-scorer-app.netlify.app" target="_blank"> view deployed site </a></button> */}
+    <button><a href="https://snooker-scorer-app.netlify.app" target="_blank"> view deployed site </a></button>
     <button><a href="https://github.com/StevieV1903/food_app" target="_blank"> view source code </a></button>
-        </div>
+        </div> */}
 
-        <div className="project-item">
+        {/* <div className="project-item">
           <img src={ weatherforecast } alt="weather app screenshot" />
           <h1 className="project-title">Weather Forecaster</h1>
           <p className="project-detail">
@@ -328,9 +327,9 @@ const Projects = () => {
 
     <button><a href="https://weatherforecaster-app.netlify.app/" target="_blank"> view deployed site </a></button>
     <button><a href="https://github.com/StevieV1903/weather_app" target="_blank"> view source code </a></button>
-        </div>
+        </div> */}
 
-        <div className="project-item">
+        {/* <div className="project-item">
           <img src={ munrobagger } alt="munro bagger screenshot" />
           <h1 className="project-title">Munro-Bagger</h1>
           <p className="project-detail">
@@ -345,9 +344,9 @@ const Projects = () => {
 
     <button><a href="https://munro-bagger-cca2f.web.app/" target="_blank"> view deployed site </a></button>
     <button><a href="https://github.com/StevieV1903/munro_bagging_app" target="_blank"> view source code </a></button>
-        </div>
+        </div> */}
 
-        <div className="project-item">
+        {/* <div className="project-item">
           <img src={ spacex } alt="space-x" />
           <h1 className="project-title">Space-X Launches</h1>
           <p className="project-detail">
@@ -361,9 +360,9 @@ const Projects = () => {
 
     <button><a href="https://space-x-tracking.netlify.app" target="_blank"> view deployed site </a></button>
     <button><a href="https://github.com/StevieV1903/spacex_tracker" target="_blank"> view source code </a></button>
-        </div>
+        </div> */}
 
-        <div className="project-item">
+        {/* <div className="project-item">
           <img src={ jokegen } alt="joke generator" />
           <h1 className="project-title">myJoke Generator</h1>
           <p className="project-detail">
@@ -378,7 +377,7 @@ const Projects = () => {
 
     <button><a href="https://myjokegenerator.netlify.app/" target="_blank"> view deployed site </a></button>
     <button><a href="https://github.com/StevieV1903/joke_generator_application" target="_blank"> view source code </a></button>
-        </div>
+        </div> */}
 
         <div className="project-item">
           <img src={ calculator } alt="calculator" />

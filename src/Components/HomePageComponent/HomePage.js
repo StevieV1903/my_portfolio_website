@@ -16,23 +16,27 @@ const HomePage = () => {
     return (
         <>
         <div className="home-container">
+           
             <div className="home-title-container">
                 <div className="home-title">
+
                     <div className="home-title-comm">
-                        c&lt;&gt;mmunicate
+                        <p>c&lt;&gt;mmunicate</p>
                     </div>
                     <div className="home-title-collab">
-                        c&lt;&gt;llaborate
+                        <p>c&lt;&gt;llaborate</p>
                     </div>
                     <div className="home-title-code">
-                        c&lt;&gt;de
+                        <p>c&lt;&gt;de</p>
                     </div>
                 </div>
+                
                 <div className="home-image-container">
                     <img className="home-image" src={homeImg} alt="digital graphic" />
                 </div>
             </div>
-            <div className="home-button-container">
+           
+                <div className="home-button-container">
                     <button className="home-button">
                         <Link to="/Projects">
                         <FontAwesomeIcon icon={faFolderOpen} />
@@ -46,3 +50,6 @@ const HomePage = () => {
 }
 
 export default HomePage;
+
+
+

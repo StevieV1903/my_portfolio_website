@@ -25,19 +25,22 @@
   margin: 0;
 }
 
-.home-title-comm {
+.home-title-comm p {
   padding-right: 40px;
   border-right: solid 8px #5d001e; 
+  margin: 0;
 }
 
-.home-title-collab {
+.home-title-collab p {
   padding-right: 40px;
   border-right: solid 8px #5d001e;
+  margin: 0;
 }
 
-.home-title-code {
+.home-title-code p {
   padding-right: 40px;
   border-right: solid 8px #5d001e;
+  margin: 0;
 }
 
 .home-image-container {
@@ -178,3 +181,85 @@
   }
   
   }
+
+
+  /* .css-typing p {
+    border-right: .15em solid orange;
+    font-family: "Courier";
+    font-size: 70px;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  .css-typing p:nth-child(1) {
+    width: 7.3em;
+    animation: type 2s steps(20, end);
+    animation-fill-mode: forwards;
+  }
+  
+  .css-typing p:nth-child(2) {
+    width: 7.3em;
+    opacity: 0;
+    animation: type2 2s steps(20, end);
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+  }
+  
+  .css-typing p:nth-child(3) {
+    width: 4.6em;
+    opacity: 0;
+    animation: type3 2s steps(20, end), blink .5s step-end infinite alternate;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      border: none;
+    }
+  }
+  
+  @keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  @keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+
+
+
+   */

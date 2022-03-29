@@ -33,8 +33,8 @@ export const webProjects = [
         projectDetail: "The World Map Quiz is an educational interactive game for children based around countries and capital cities. This was my second project at Codeclan, this time as part of a group (x4). Built from scratch in six days, it is built using JavaScript with Vue as the web framework.",
         techIcons: [
             {
-                link: require("../Images/react.png"), 
-                alt: "react"
+                link: require("../Images/vue.png"), 
+                alt: "vuet"
             },
             {
                 link: require("../Images/javascript.png"), 
@@ -48,7 +48,7 @@ export const webProjects = [
                 alt: "spring"
             }
         ],
-        deployURL: "https://sv-world-quiz.herokuapp.com/",
+        deployURL: null,
         sourceURL: "https://github.com/StevieV1903/world_quiz_group_project"
     },
     {
@@ -73,7 +73,7 @@ export const webProjects = [
                 alt: "spring"
             }
         ],
-        deployURL: null,
+        deployURL: "https://jobswipe-app.herokuapp.com/",
         sourceURL: null
     },
     {
@@ -137,27 +137,157 @@ export const webProjects = [
         ],
         deployURL: "https://steviev1903.github.io/react-dunbar-pages/",
         sourceURL: "https://github.com/StevieV1903/react-dunbar-pages"
+    },
+    {
+        projectHeaderImage: require("../Images/snookerscorer.png"),
+        projectHeaderAlt: "snooker scorer application screenshot",
+        projectTitle: "Snooker Scorer",
+        projectDetail: "This was a group project (x3) post Codeclan. It was built using Javascript and React. The aim of the app is to keep score during a snooker match, either watching or playing with a friend. It includes a set-up page that stores players names and lets you pick who is to break first.",
+        techIcons: [
+            {
+                link: require("../Images/react.png"), 
+                alt: "react"
+            },
+            {
+                link: require("../Images/javascript.png"), 
+                alt: "javascript"
+            },
+            {
+                link: require("../Images/netlify.png"), 
+                alt: "netlify"
+            }
+        ],
+        deployURL: "https://snooker-scorer-app.netlify.app",
+        sourceURL: "https://github.com/StevieV1903/snooker_scorer_cjs"
+    },
+    {
+        projectHeaderImage: require("../Images/wastenot.png"),
+        projectHeaderAlt: "waste not want not mobile application screenshot",
+        projectTitle: "Waste Not Want Not",
+        projectDetail: "This was a group project (x3) post Codeclan. It was built using Javascript and ReactNative. The app aims to minimise food waste. It fetches a data set from an external API and provides users with recipe suggestions based on specific ingredients. There is also an intolerance filter.",
+        techIcons: [
+            {
+                link: require("../Images/reactnative.png"), 
+                alt: "react native"
+            },
+            {
+                link: require("../Images/javascript.png"), 
+                alt: "javascript"
+            }
+        ],
+        deployURL: null,
+        sourceURL: "https://github.com/StevieV1903/food_app"
+    },
+    {
+        projectHeaderImage: require("../Images/weatherforecast.png"),
+        projectHeaderAlt: "weather forecast application screenshot",
+        projectTitle: "Weather Forecaster",
+        projectDetail: "This was a group project (x3) post Codeclan. It was built using Javascript and Vue as the webframework. Using geolocation to locate a users coordinates, it fetches data from two API's and provides users with current weather and a 7-day forecast based on their location.",
+        techIcons: [
+            {
+                link: require("../Images/vue.png"), 
+                alt: "vue"
+            },
+            {
+                link: require("../Images/javascript.png"), 
+                alt: "javascript"
+            },
+            {
+                link: require("../Images/netlify.png"), 
+                alt: "netlify"
+            }
+        ],
+        deployURL: "https://weatherforecaster-app.netlify.app",
+        sourceURL: "https://github.com/StevieV1903/weather_app"
+    },
+    {
+        projectHeaderImage: require("../Images/munrobagger.png"),
+        projectHeaderAlt: "munro bagger application screenshot",
+        projectTitle: "Munro Bagger",
+        projectDetail: "A group project (x3). Web-app built using Javascript and React as the webframework. Using tomtom maps sdk and a munro api, it fetches and plots data onto a map within the UI. Using firebase database it implements user authentication and tracks users completed munros.",
+        techIcons: [
+            {
+                link: require("../Images/react.png"), 
+                alt: "react"
+            },
+            {
+                link: require("../Images/javascript.png"), 
+                alt: "javascript"
+            },
+            {
+                link: require("../Images/firebase.png"), 
+                alt: "firebase"
+            }
+        ],
+        deployURL: "https://munro-bagger-cca2f.web.app/",
+        sourceURL: "https://github.com/StevieV1903/munro_bagging_app"
+    },
+    {
+        projectHeaderImage: require("../Images/spacex.png"),
+        projectHeaderAlt: "space x application screenshot",
+        projectTitle: "Space-X Launches",
+        projectDetail: "An individual project. Web-app built using Javascript and React as the webframework. Using a number of spaceX apis, it fetches and lists past and future rocket launches. It also allows the user to filter all the launches by date and sort launches by ascending and descending order.",
+        techIcons: [
+            {
+                link: require("../Images/react.png"), 
+                alt: "react"
+            },
+            {
+                link: require("../Images/javascript.png"), 
+                alt: "javascript"
+            },
+            {
+                link: require("../Images/netlify.png"), 
+                alt: "netlify"
+            }
+        ],
+        deployURL: "https://space-x-tracking.netlify.app",
+        sourceURL: "https://github.com/StevieV1903/spacex_tracker"
+    },
+    {
+        projectHeaderImage: require("../Images/jokegen.png"),
+        projectHeaderAlt: "my joke generator application screenshot",
+        projectTitle: "myJoke Generator",
+        projectDetail: "An individual project. myJoke Generator is a fully responsive React.js SPA that makes a fetch to an external api and renders the joke on the click of a button and also requires the user to click a seperate button to reveal the punchline. Also includes some pretty awesome button animations.",
+        techIcons: [
+            {
+                link: require("../Images/react.png"), 
+                alt: "react"
+            },
+            {
+                link: require("../Images/javascript.png"), 
+                alt: "javascript"
+            },
+            {
+                link: require("../Images/netlify.png"), 
+                alt: "netlify"
+            }
+        ],
+        deployURL: "https://myjokegenerator.netlify.app",
+        sourceURL: "https://github.com/StevieV1903/joke_generator_application"
     }
+
 ]
 
 
 
 {/* <div className="project-item">
-          <img src={ discoveringdunbar } alt="discovering dunbar screenshot" />
-          <h1 className="project-title">Discovering Dunbar</h1>
+          <img src={ jokegen } alt="joke generator" />
+          <h1 className="project-title">myJoke Generator</h1>
           <p className="project-detail">
-          This project is a fully responsive website, using Javascript and React. The aim of the website is to encourage people to shop local and use independent traders. It helped my develop my CSS skills and also really focus on media queries to deliver the responsive element of the site.
+          An individual project. myJoke Generator is a fully responsive React.js SPA that makes a fetch to an external api and renders the joke on the click of a button and also requires the user to click a seperate button to reveal the punchline. Also includes some pretty awesome button animations.
         </p>
         <div className="project-icon">
         <img src={ react } alt="react logo" />
         <img src={ javascript } alt="javascript logo" />
-        <img src={ githubpages } alt="git hub pages logo" />
+        <img src={ netlify } alt="netlify logo" />
         </div>
         <br />
 
-    <button><a href="https://steviev1903.github.io/react-dunbar-pages/" target="_blank"> view deployed site </a></button>
-    <button><a href="https://github.com/StevieV1903/react-dunbar-pages" target="_blank"> view source code </a></button>
+    <button><a href="https://myjokegenerator.netlify.app/" target="_blank"> view deployed site </a></button>
+    <button><a href="https://github.com/StevieV1903/joke_generator_application" target="_blank"> view source code </a></button>
         </div> */}
+
 
 
 
