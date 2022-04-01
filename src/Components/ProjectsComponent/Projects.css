@@ -95,7 +95,7 @@
 
   }
 
-  button {
+  .project-btn {
     margin: 0px 10px 10px 10px;
     min-width: 60%;
     min-height: 40px;
@@ -107,17 +107,17 @@
     
   }
 
-  button a {
+  .project-btn a {
     font-family: 'Fira Mono', monospace;
     color: white;
   }
   
-  button:hover {
-    background-color: #ffffff;
+  .project-btn:hover {
+    background-color: #c7ffff;
     box-shadow: 0 5px 15px 0px #000000cc;
   }
 
-  button:hover a {
+  .project-btn:hover a {
     font-family: 'Fira Mono', monospace;
     color: #5d001e;;
   }
