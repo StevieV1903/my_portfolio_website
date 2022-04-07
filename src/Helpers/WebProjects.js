@@ -266,28 +266,28 @@ export const webProjects = [
         deployURL: "https://myjokegenerator.netlify.app",
         sourceURL: "https://github.com/StevieV1903/joke_generator_application"
     },
-    // {
-    //     projectHeaderImage: require("../Images/calculator.png"),
-    //     projectHeaderAlt: "calculator application screenshot",
-    //     projectTitle: "Calculator App",
-    //     projectDetail: "A paired project. Responsive app built using React.js as the webframework and hosted on AWS Amplify. Using grid style CSS for the layout and react hooks and state, it acts and behaves like a calculator should, allowing the user to complete mathematical operations.",
-    //     techIcons: [
-    //         {
-    //             link: require("../Images/react.png"), 
-    //             alt: "react"
-    //         },
-    //         {
-    //             link: require("../Images/javascript.png"), 
-    //             alt: "javascript"
-    //         },
-    //         {
-    //             link: require("../Images/awsAmplifyLogo.png"), 
-    //             alt: "aws amplify"
-    //         }
-    //     ],
-    //     deployURL: "https://main.d32umybxq09b6x.amplifyapp.com/",
-    //     sourceURL: "https://github.com/StevieV1903/calculator_app"
-    // },
+    {
+        projectHeaderImage: require("../Images/calculator.png"),
+        projectHeaderAlt: "calculator application screenshot",
+        projectTitle: "Calculator App",
+        projectDetail: "A paired project. Responsive app built using React.js as the webframework and hosted on AWS Amplify. Using grid style CSS for the layout and react hooks and state, it acts and behaves like a calculator should, allowing the user to complete mathematical operations.",
+        techIcons: [
+            {
+                link: require("../Images/react.png"), 
+                alt: "react"
+            },
+            {
+                link: require("../Images/javascript.png"), 
+                alt: "javascript"
+            },
+            {
+                link: require("../Images/netlify.png"), 
+                alt: "netlify"
+            }
+        ],
+        deployURL: "https://retro-calculator.netlify.app/",
+        sourceURL: "https://github.com/StevieV1903/calculator_app"
+    },
     {
         projectHeaderImage: require("../Images/miricyl.png"),
         projectHeaderAlt: "miricyl application screenshot",
@@ -332,7 +332,8 @@ export const webProjects = [
     //     ],
     //     deployURL: "https://master.d2fykhzd9mmkes.amplifyapp.com/",
     //     sourceURL: "https://github.com/StevieV1903/react_api_lab"
-    // },
+    // }
+    // ,
     // {
     //     projectHeaderImage: require("../Images/hangman.png"),
     //     projectHeaderAlt: "hangman application screenshot",
