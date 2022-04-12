@@ -7,7 +7,7 @@
 .home-title-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 50px;
+  margin-top: 80px;
   justify-content: center;
   align-items: center;
 }
@@ -19,7 +19,7 @@
   color: #5d001e;
   font-family: 'Catamaran', sans-serif;
   justify-self: center;
-  font-size: 70px;
+  font-size: 55px;
   line-height: 1em;
   text-align: right;
   margin: 0;
@@ -67,8 +67,8 @@
   background-color: #5d001e;
   cursor: pointer;
   transition: 0.7s;
-  padding: 10px 50px;
-  font-size: 20px;
+  padding: 10px 30px;
+  font-size: 16px;
 
 }
 
@@ -121,7 +121,7 @@
       max-width: 550px;
       padding: 40px 0px;
       justify-self: center;
-      font-size: 70px;
+      font-size: 55px;
       text-align: right;
       margin: 0;  
     }
@@ -151,7 +151,7 @@
         min-width: 80px;
         min-height: 40px;
         padding: 10px 20px;
-        font-size: 18px; 
+        font-size: 16px; 
     }
     .home-title-container {
       margin-top: 90px;
@@ -161,7 +161,7 @@
 
   @media screen and (max-width: 475px) {
     .home-title-container {
-      margin-top: 50px;
+      /* margin-top: 70px; */
   }
     .home-title {
       max-width: 280px;
@@ -173,7 +173,7 @@
         min-width: 60px;
         min-height: 40px;
         padding: 10px 10px;
-        font-size: 16px;
+        font-size: 14px;
     
     }
     .home-button-container {

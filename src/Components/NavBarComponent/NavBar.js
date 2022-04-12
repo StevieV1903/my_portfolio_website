@@ -17,7 +17,7 @@ const NavBar = () => {
         <nav className="navbar">
             
             <div className="title">
-                <img src={ svLogo }></img>
+                <a href="/"><img src={ svLogo }></img></a>
             </div>
 
         
