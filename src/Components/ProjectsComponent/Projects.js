@@ -49,125 +49,70 @@ import { faFolderOpen } from '@fortawesome/free-solid-svg-icons';
 import { webProjects } from "../../Helpers/WebProjects.js"
 
 
-
-
-
-
 const Projects = () => {
 
   useEffect(()=> {
     window.scrollTo( 0, 0 )
-  });
-
-  // let technicalIcons
-
-  // const getArray = () => {
-  //   webProjects.map(( project ) => {
-  //     technicalIcons = project.techIcons
-  //   })
-  //   return technicalIcons
-  // }
-
- 
-
-
-    // webProjects.map(( project, index ) => {
-    //   console.log(project.projectTitle, 
-    //     project.projectDetail,
-    //     project.projectHeaderImage,
-    //     index)
-
-    //     project.techIcons.forEach(( icon, index ) => {
-    //       console.log(icon.link, icon.alt)
-    //     })
-    // })
-  // }
-
-  // let technicalIcons
-
-  // const myFunction2 = () => {
-  //  webProjects.map(( project )=> {
-  //   technicalIcons = project.techIcons
-  //   console.log(technicalIcons)
-  //   })
-  //   technicalIcons.map(( icon ))
-    // ( icon => icon.links.forEach(link => console.log(link) ))
-  // }
-
-
-  // function shallowIterator (webProjects) {
-  //   for (const key in target) {
-  //     console.log(webProjects[key]);
-  //   }
-  // }
-
+  }, [] );
 
   
 
 
-  // <div className="slider">
-  //           {imageSliderData.map(( slide, index )=> {
-  //               // console.log(slide.image)
-                
-  //               return(
-  //                   <div className={ index === currentSlide ? 'slide active' : 'slide' } key={index}>
-  //                   {index === currentSlide && (
-  //                   <>
-  //                   <img className="slider-image" src={slide.image} alt={ slide.alt} key={index} />
-  //                   <p className="slider-image-caption">{slide.caption}</p>
-  //                   </>
-  //                   )}
-  //                   </div>
-             
-  //               )
-                
-  //           })
-            
-  //           }
-
-    return (
+  return (
         
-        <>
+<>
       <header>
-        <div className="projects-description-container">
-        <h1 className="projects-title">
-        <FontAwesomeIcon icon={faFolderOpen} />
-                    <span> my_Projects</span></h1>
-        <hr></hr>
-          <p className="projects-description-text">
-          I have worked on a number of projects over the last wee while including those completed as part of my Codeclan adventure, as well as projects that I have taken on as part of my own personal development. If you would like any further information about the projects below, please do <Link to="/Contact"> get in touch</Link>!!
-          </p>
-        </div>
+          <div className="projects-description-container">
+            <h1 className="projects-title">
+            <FontAwesomeIcon icon={faFolderOpen} />
+                        <span> my_Projects</span></h1>
+          <hr></hr>
+              <p className="projects-description-text">
+              I have worked on a number of projects over the last wee while including those completed as part of my Codeclan adventure, as well as projects that I have taken on as part of my own personal development. If you would like any further information about the projects below, please do <Link to="/Contact"> get in touch</Link>!!
+              </p>
+              <p className="projects-description-text">Hover over the main image to find out more information about each project.</p>
+          </div>
       </header>
 
-<div className="project-banner">
-<div className="project-container">
-      {webProjects.map(( project ) => {
-        return(
-          <>
-          
-              <div className="project-item">
-                <img src={ project.projectHeaderImage } alt={project.projectHeaderAlt} />
-                  <h1 className="project-title" >{ project.projectTitle }</h1>
-                    <p className="project-detail" >{ project.projectDetail }</p>
+      <div className="project-banner">
+      <div className="project-container">
+            {webProjects.map(( project ) => {
               
-                    {project.techIcons.map(( icon )=> {
-                    return(
-                    <>
-                      <div className="project-icon">
-                      <img src={icon.link} alt={icon.alt}/>
-                      </div>
-                    </>
-                    )
-                  })}
-                  <br/>
+              return(
 
+              <>
+                  <div className="project-item">
+                      <h1 className="project-title" >{ project.projectTitle }</h1>
+
+                          {/* <img src={ project.projectHeaderImage } alt={project.projectHeaderAlt} />
+                            <p className="project-detail" >{ project.projectDetail }</p> */}
+                            <div className="container">
+                              <img src={ project.projectHeaderImage } alt={project.projectHeaderAlt} />
+                                <div className="overlay" >
+                                  <div className="text" >{ project.projectDetail }</div>
+                                </div>
+                            </div>
+                            
+                            
+                            
+                        
+                            
+                            {project.techIcons.map(( icon )=> {
+                            return(
+                            <>
+                              <div className="project-icon">
+                              <img src={icon.link} alt={icon.alt}/>
+                              </div>
+                            </>
+                            )
+                          })}
+                      <br/>
                     { project.deployURL ? <button className="project-btn"> <a href={project.deployURL} target="_blank"> view deployed site </a></button> : null }
                     { project.sourceURL ? <button className="project-btn"> <a href={project.sourceURL} target="_blank"> view source code </a></button> : null }
 
-              </div>
+                  </div>
             
-          </>
+              </>
         )
       })}
   </div>
@@ -182,3 +127,13 @@ const Projects = () => {
 }
 
 export default Projects;
+
+
+
+
+
+
+
+
+
+
