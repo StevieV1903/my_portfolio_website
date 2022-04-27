@@ -162,28 +162,42 @@
 
   /* RESPONSIVE RULES */
 
-  /* @media screen and (max-width: 1205px) {
+  @media screen and (max-width: 1205px) {
     .projects-description-container {
       margin: 60px 30px 20px 30px;
     }
-    .project-item {
-      max-width: 310px;
-      min-height: 610px;
-      padding: 10px;
-      margin: 5px;
+  }
+
+  @media screen and (max-width: 395px) {
+    .projects-description-container {
+      margin: 60px 20px 20px 20px;
     }
+    .project-item {
+      width: 295px;
+      min-height: 440px;
+    }
+    
     .project-item img {
       width: 280px;
       height: 200px;
-      margin-top: 10px;
-      padding: 0;
     }
+    
+    .project-title {
+      font-size: 20px;
+    }
+  
     .project-icon img {
-      width: 40px;
-      height: 40px;
-      padding: 0 10px;
+      width: 35px;
+      height: 35px;
     }
-  } */
+  
+    .container {
+      width: 280px;
+      height: 200px;
+    
+      
+    }
+  }
 
 
 

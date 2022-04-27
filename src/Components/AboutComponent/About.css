@@ -45,16 +45,7 @@
     text-align: justify;
     color: #5d001e;
     font-family: 'Roboto', sans-serif;
-    /* font-size: 24px; */
     padding: 0px 60px;
-    /* border: 1px solid #5d001e;
-    border-radius: 20px;
-    background-color: white;
-    box-shadow: 0 5px 15px 0px #000000cc;
-    height: 325px;
-    overflow: auto;  */
-    /* margin-right: 20px; */
-    /* margin: 0; */
   }
   
   .about-text {
@@ -104,7 +95,7 @@
       align-items: center;  
     }
     .about-headshot {
-      height: 300px;
+      height: 150px;
       }
     .about-text {
       margin-right: 0;
@@ -118,19 +109,31 @@
       height: 500px;
     }
     .about-container {
-      margin: 10px 10px;
+      margin: 10px 20px;
     }
     
   }
 
   @media screen and (max-width: 550px) {
     .about-text h1 {
-      font-size: 26px;
+      font-size: 24px;
       text-align: left;
     }
     .about-text {
-      text-align: center;
-      font-size: 20px;
+      text-align: left;
+      font-size: 16px;
+    }
+    .sub-title-text {
+      padding: 0px 20px;
+      font-size: 14px;
+    }
+    
+  }
+
+  @media screen and (max-width: 411px) {
+    .sub-title-text {
+      padding: 0px 20px;
+      font-size: 11px;
     }
     
   }
