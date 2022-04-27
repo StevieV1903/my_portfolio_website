@@ -7,45 +7,6 @@ import ReturnToTopBtn from "../ReturnToTopBtnComponent/ReturnToTopBtn.js";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFolderOpen } from '@fortawesome/free-solid-svg-icons';
 
-// import gym from "../../Images/ruby-gym.png";
-// import worldquiz from "../../Images/worldquiz.png";
-// import jobswipe from "../../Images/jobswipe.png";
-// import sspca from "../../Images/sspca.png";
-// import covid19 from "../../Images/covid19.png";
-// import discoveringdunbar from "../../Images/discoveringdunbar.png";
-// import snookerscorer from "../../Images/snookerscorer.png";
-// import wastenotwantnot from "../../Images/wastenot.png";
-// import weatherforecast from "../../Images/weatherforecast.png";
-// import munrobagger from "../../Images/munrobagger.png"
-// import spacex from "../../Images/spacex.png"
-// import jokegen from "../../Images/jokegen.png"
-// import calculator from "../../Images/calculator.png"
-// import miricyl from "../../Images/miricyl.png"
-// import toptunes from "../../Images/toptunes.png"
-// import hangman from "../../Images/hangman.png"
-// import lottery from "../../Images/lottery.png"
-// import rps from "../../Images/rps.png"
-
-// import ruby from "../../Images/ruby.png";
-// import sinatra from "../../Images/sinatra.png";
-// import postgresql from "../../Images/postgresql.png";
-// import heroku from "../../Images/heroku.png";
-
-// import javascript from "../../Images/javascript.png";
-// import vue from "../../Images/vue.png";
-// import mongodb from "../../Images/mongodb.png";
-
-// import spring from "../../Images/spring.png";
-// import react from "../../Images/react.png";
-// import java from "../../Images/java.png";
-
-// import reactnative from "../../Images/reactnative.png";
-// import firebase from "../../Images/firebase.png";
-// import githubpages from "../../Images/githubpages.png";
-// import netlify from "../../Images/netlify.png";
-// import nodejs from "../../Images/nodejs.jpg";
-// import awsAmplify from "../../Images/awsAmplifyLogo.png";
-
 import { webProjects } from "../../Helpers/WebProjects.js"
 
 
