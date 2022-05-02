@@ -31,8 +31,8 @@
   .about-headshot {
     display: flex;
     float: right;
-    height: 150px;
-    border: 5px solid #5d001e;
+    height: 200px;
+    border: 3px solid #5d001e;
     border-style: ridge;
     border-radius: 20%;
     box-shadow: 0 5px 15px 0px #000000cc;
@@ -65,6 +65,7 @@
   }
   .about-text p {
     margin: 0;
+    font-size: 18px;
   }
   .about-text h3 {
     margin: 3px;
@@ -79,10 +80,6 @@
     font-weight: bold;
   }
 
-  .about-text p {
-    font-size: 18px;
-  }
-
   /* RESPONSIVE RULES */
 
   @media screen and (max-width: 1024px) {
@@ -95,7 +92,7 @@
       align-items: center;  
     }
     .about-headshot {
-      height: 150px;
+      height: 175px;
       }
     .about-text {
       margin-right: 0;
@@ -111,6 +108,9 @@
     .about-container {
       margin: 10px 20px;
     }
+    .about-headshot {
+      height: 150px;
+      }
     
   }
 

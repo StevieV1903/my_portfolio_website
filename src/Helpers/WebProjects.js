@@ -310,29 +310,29 @@ export const webProjects = [
         deployURL: "https://help.miricyl.org/",
         sourceURL: null
     }
-    // ,
-    // {
-    //     projectHeaderImage: require("../Images/toptunes.png"),
-    //     projectHeaderAlt: "top 40 tunes application screenshot",
-    //     projectTitle: "Top 40 Tunes",
-    //     projectDetail: "An individual project. A responsive SPA using React.js. It fetches an api from apple music and displays the most popular tunes. It also lets the user listen to a 30 sec. sample of the song with the play & pause toggle. The app also lets the user toggle between light and dark mode.",
-    //     techIcons: [
-    //         {
-    //             link: require("../Images/react.png"), 
-    //             alt: "react"
-    //         },
-    //         {
-    //             link: require("../Images/javascript.png"), 
-    //             alt: "javascript"
-    //         },
-    //         {
-    //             link: require("../Images/awsAmplifyLogo.png"), 
-    //             alt: "aws amplify"
-    //         }
-    //     ],
-    //     deployURL: "https://master.d2fykhzd9mmkes.amplifyapp.com/",
-    //     sourceURL: "https://github.com/StevieV1903/react_api_lab"
-    // }
+    ,
+    {
+        projectHeaderImage: require("../Images/toptunes.png"),
+        projectHeaderAlt: "top 40 tunes application screenshot",
+        projectTitle: "Top 40 Tunes",
+        projectDetail: "An individual project. A responsive SPA using React.js. It fetches an api from apple music and displays an up-to-date list of the most popular songs. It also lets the user listen to a 30 sec. sample of the song with the play & pause toggle. The app also lets the user toggle between a light and dark mode.",
+        techIcons: [
+            {
+                link: require("../Images/react.png"), 
+                alt: "react"
+            },
+            {
+                link: require("../Images/javascript.png"), 
+                alt: "javascript"
+            },
+            {
+                link: require("../Images/netlify.png"), 
+                alt: "netlify"
+            }
+        ],
+        deployURL: "https://top40tunes.netlify.app/",
+        sourceURL: "https://github.com/StevieV1903/react_api_lab"
+    }
     // ,
     // {
     //     projectHeaderImage: require("../Images/hangman.png"),

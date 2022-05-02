@@ -33,6 +33,7 @@ const About = () => {
               <h1>
                 About...
               </h1>
+              <hr></hr>
                 <img
                 className="about-headshot"
                 src={headshot}
@@ -62,6 +63,7 @@ const About = () => {
               <h1>
                 Technical Experience...
               </h1>
+              <hr></hr>
               <h3>Scottish Tech Army / Miricyl Project</h3>
               <h4>Front-End Developer (Volunteer)</h4>
                 <p>
